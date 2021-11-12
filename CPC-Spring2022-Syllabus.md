@@ -37,9 +37,9 @@ This course is a project-based learning (PBL) course where teams of climate scie
 **No formal instruction on statistics, data science, machine learning will be given**. Project cycles run every 4 weeks, where we will have mini-group data projects. Groups will be formed **randomly** with students from both climate science and data science background. Project products will be peer-reviewed, in addition to evaluation by the instructional team.
 
 #### Course organization
-This course will have a total of *five* project cycles. Each project cycle follows a sequence of four types of activities. 
+This course will have a total of *three* project cycles. Each project cycle follows a sequence of four types of activities. 
 
-**a**. Dataset release, introduction to data science problem, individual exercises, team forming
+**a**. Dataset release, introduction to *climae data science* problem, individual exercises, team forming
 
 **b**. Lecture/tutorial
 
@@ -47,44 +47,43 @@ This course will have a total of *five* project cycles. Each project cycle follo
 
 **d**. Team presentation, peer reviews, within-team peer reviews
 
-Students will be working in teams of 5 students that will be randomly formed. For a meaningful experience in data science, students are expected to collaborate and work together on all the stages of a project. Code sharing and brainstorming are great opportunities to learn from each other. 
+Students will be working in teams of 3 students that will be randomly formed. For a meaningful experience in climate data science, students are expected to collaborate and work together on all the stages of a project. Code sharing and brainstorming are great opportunities to learn from each other. 
 
-We will have a total of five project cycles for this course (topics are subject to change):
+We will have a total of three project cycles for this course (topics are subject to change):
 
-1. [Individual] R notebook for exploratory data analysis 
-2. Shiny app for interactive data visualization project.
-3. Predictive analytics of images.
-4. Research evaluation and reproducibility challenge.
-5. *Free topic*.
+1. [Individual] Reproducible notebook for exploratory data analysis of climate data sets
+2. [Group] Physics informed machine learning.
+3. [Group] Predictive modeling with uncertainty quantification.
 
 Below is a tentative schedule we will follow.
 
-+ Week 1 (Sep 5/6): 1a+1b
-+ Week 2 (Sep 12/13): 1c
-+ Week 3 (Sep 19/20): 1d+2a
-+ Week 4 (Sep 26/27): 2b+2c
-+ Week 5 (Oct 3/4): 2c
-+ Week 6 (Oct 10/11): 2d+3a
-+ Week 7 (Oct 17/18): 3b+3c
-+ Week 8 (Oct 24/25): 3b+3c
-+ Week 9 (Oct 31/Nov 1): 3d+4a
-+ Week 10 (Nov 7/8): 4b+4c
-+ Week 11 (Nov 14/15): 4b+4c
-+ Thanksgiving week: no class
-+ Week 12 (Nov 28/29): 4d+5c
-+ Week 13 (Dec 5/6): 5d
++ Week 1 (Jan 18): 1a+1b
++ Week 2 (Jan 25): 1b+1c
++ Week 3 (Feb 1): 1b+1c
++ Week 4 (Feb 8): 1d+2a
++ Week 5 (Feb 15): 2b+2c
++ Week 6 (Feb 22): 2b+2c
++ Week 7 (Mar 1): 2b+2c
++ Week 8 (Mar 8): 2d
++ Spring break: no class
++ Week 9 (Mar 22): 3a+3b
++ Week 10 (Mar 29): 3b+3c
++ Week 11 (Apr 5): 3b+3c
++ Week 12 (Apr 12): 3b+3c
++ Week 13 (Apr 19): 3b+3c
++ Week 14 (Apr 26): 3d
 
 #### Evaluation
 
 Students' performance will be evaluated based on 
 
-* [85%] Project products (instructor-reviewed and/or peer-reviewed, averaged over 5 projects). Each project description will have explicit grading rubrics. 
+* [85%] Project products (instructor-reviewed and/or peer-reviewed, averaged over 3 projects). Each project description will have explicit grading rubrics. 
 * [15%] Individual participation (based on individual tasks and instructors' observation).
 
 	##### A note on participation evaluation. 
 	In addition to individual tasks such as peer reviews, for each project, we will enforce formal evaluation of participation as follows. 
 	
-	* Each project needs to show clear collaboration and task assignments in Piazza discussion using the group discussion function. 
+	* Each project needs to show clear collaboration and task assignments in courseworks using the group discussion function. 
 	* Teams should try to use GitHub to coordinate code sharing and project development throughout the project. GitHub activities will be used as part of participation evaluation. 
 	* Students should participate actively in class discussion and piazza discussion. 
 	* We will give participation score for each project cycle, the average of which will contribute to 15% of your final grade. The participation will be graded on the following curve. 
@@ -96,16 +95,14 @@ Students' performance will be evaluated based on
 	* This is to ensure a positive learning process for all of us.  
 
 #### Communication
-Projects grades are managed in courseworks. We will be using the discussion/announcement tools in Piazza (accessible from Courseworks) for our online class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TAs, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
+Projects grades are managed in courseworks. We will be using the courseworks' discussion/announcement tools for our class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TAs, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
 
 #### Textbook
-There is not a single required text. As part of this course, we will learn from what we can find online and in academic papers. Here are a couple of recommended reference books. 
+There is no required text. As part of this course, we will learn from what we can find online and in academic papers. Here are a couple of recommended reference books. 
 
-+ Mount and Zumel (2014) Practical data science with R.
-+ Segaran (2007) Programming collective intelligence: building smart web 2.0 applications.
-+ Tuffe (2001) The visual display of quantitative information.
-+ Fung (2013) Numbersense: how to use big data to your advantage.
-+ Wickham (2017) R for Data Science http://r4ds.had.co.nz/
++ James, Witten, Hastie and Tibshirani (2021) An introduction to Statistical Learning with Applications in R, 2nd Ed., <https://www.statlearning.com/>
++ Wickham (2017) R for Data Science <http://r4ds.had.co.nz/>
++ VanderPlas(2016)Python Data Science Handbook <https://jakevdp.github.io/PythonDataScienceHandbook/>
 
 #### Class policy
 
