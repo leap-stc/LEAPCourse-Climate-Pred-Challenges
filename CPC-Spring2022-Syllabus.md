@@ -3,8 +3,7 @@
 #### STAT GR5243/GU4243 | DEES Gxxx
 ### Climate Predication Challenge
 
-#### Learning Earth with AI and Physics (LEAP)
-#### &nbsp; &nbsp; &nbsp; an NSF Science and Technology Center (STC)
+#### Learning Earth with AI and Physics (LEAP), an NSF Science and Technology Center (STC)
 
 <br />
 
