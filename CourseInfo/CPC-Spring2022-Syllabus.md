@@ -12,11 +12,11 @@
 * Instructors: 
 	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
 		* Professor of [Statistics at Columbia](http://stat.columbia.edu)
-		* LEAP's Chief Convergence Officer and Education Director. 
+		* LEAP Chief Convergence Officer and Education Director. 
 		* Office hours: TBD
-	* Galen McKinley <gam2156@columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
+	* Galen McKinley <mckinley@ldeo.columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
-		* LEAP's Deputy Director.
+		* LEAP Deputy Director.
 		* Office hours: TBD	
 	* Kamiar Rahnama Rad <kr2248@columbia.edu> [(@RahnamaRad)](https://github.com/RahnamaRad) 
 		* Adjunct Assistant Professor, Department of Statistics, Columbia University. 
@@ -29,12 +29,12 @@
 	* Course materials and repositories on **GitHub**: <https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges>
  
 #### Prerequisites
-The pre-requisite for this course includes working knowledge in high school science and math, statistics and probability, data mining, statistical modeling and machine learning. Prior programming experience in R or Python is required. Videos for crash courses in machine learning and programming are linked in courseworks.  
+The pre-requisite for this course includes working knowledge of high school science and math, statistics and probability, data mining, statistical modeling and machine learning. Prior programming experience in R or Python is required. Videos for crash courses in machine learning and programming are linked in courseworks.  
 
 #### Description  
-This course is a project-based learning (PBL) course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research. Students from different background will apply their prior knowledge, work together and teach each other in high-paced collaborative projects. Through a sequence of mini-project “challenges”, this course provides students a deeper understanding on using machine learning for climate predictions. It provides training on a broad set of practical skills for climate data science research (e.g., handling geoscience data formats, data curation, cleaning and transformation, building ML workflow, and collaboration using Git and GitHub). It will also offer discussions on the opportunities and challenges of using climate projections in decision processes.
+This course is a project-based learning (PBL) course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research. Students from different background will apply their prior knowledge, work together and teach each other in high-paced collaborative projects. Through a sequence of mini-project “challenges”, this course provides students a deeper understanding of using machine learning for climate science and support predictive capabilities. It provides training on a broad set of practical skills for climate data science research (e.g., handling geoscience data formats, data curation, cleaning and transformation, building ML workflow, and collaboration using Git and GitHub). It will also offer discussions on the opportunities and challenges of using climate science and projections in decision processes.
 
-**No formal instruction on statistics, data science, machine learning will be given**. Project cycles run every 4 weeks, where we will have mini-group data projects. Groups will be formed **randomly** with students from both climate science and data science background. Project products will be peer-reviewed, in addition to evaluation by the instructional team.
+**No formal instruction on statistics, data science, machine learning, or climate science will be given**. Project cycles run every 4 weeks, where we will have mini-group data projects. Groups will be formed **randomly** with students from both climate science and data science background. Project products will be peer-reviewed, in addition to evaluation by the instructional team.
 
 #### Course organization
 This course will have a total of *three* project cycles. Each project cycle follows a sequence of four types of activities. 
@@ -52,8 +52,8 @@ Students will be working in teams of 3 students that will be randomly formed. Fo
 We will have a total of three project cycles for this course (topics are subject to change):
 
 1. [Individual] Reproducible notebook for exploratory data analysis of climate data sets
-2. [Group] Physics informed machine learning.
-3. [Group] Predictive modeling with uncertainty quantification.
+2. [Group] Physics-informed machine learning
+3. [Group] Predictive modeling with uncertainty quantification
 
 Below is a tentative schedule we will follow.
 
@@ -103,6 +103,8 @@ There is no required text. As part of this course, we will learn from what we ca
 + James, Witten, Hastie and Tibshirani (2021) An introduction to Statistical Learning with Applications in R, 2nd Ed., <https://www.statlearning.com/>
 + Wickham (2017) R for Data Science <http://r4ds.had.co.nz/>
 + VanderPlas(2016)Python Data Science Handbook <https://jakevdp.github.io/PythonDataScienceHandbook/>
++ Archer (2011) Global Warming: Understanding the Forecast, 2nd edition <http://forecast.uchicago.edu>
++ Williams and Follows (2011) Ocean Dynamics and the Carbon Cycle <https://www.cambridge.org/core/books/ocean-dynamics-and-the-carbon-cycle/31EF28FEF48A172FF746B3E654F9455A>
 
 #### Class policy
 
