@@ -10,11 +10,16 @@
 #### Course Information
 * Classes: Time TBD, Room TBD
 * Instructors: 
-	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). Professor of [Statistics at Columbia](http://stat.columbia.edu), LEAP's Chief Convergence Officer and Education Director. 
+	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
+		* Professor of [Statistics at Columbia](http://stat.columbia.edu)
+		* LEAP's Chief Convergence Officer and Education Director. 
 		* Office hours: TBD
-	* Galen McKinley <gam2156@columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley)), Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/), LEAP's Deputy Director.
+	* Galen McKinley <gam2156@columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
+		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
+		* LEAP's Deputy Director.
 		* Office hours: TBD	
-	* Kamiar Rahnama Rad <kr2248@columbia.edu> [(@RahnamaRad)](https://github.com/RahnamaRad) Adjunct Assistant Professor, Department of Statistics, Columbia University. 
+	* Kamiar Rahnama Rad <kr2248@columbia.edu> [(@RahnamaRad)](https://github.com/RahnamaRad) 
+		* Adjunct Assistant Professor, Department of Statistics, Columbia University. 
 		* Office hours: TBD 
 * Teaching Assistants
 	* TA: TBD
