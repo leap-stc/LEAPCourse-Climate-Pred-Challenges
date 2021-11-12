@@ -103,7 +103,8 @@ There is no required text. As part of this course, we will learn from what we ca
 + James, Witten, Hastie and Tibshirani (2021) An introduction to Statistical Learning with Applications in R, 2nd Ed., <https://www.statlearning.com/>
 + Wickham (2017) R for Data Science <http://r4ds.had.co.nz/>
 + VanderPlas(2016)Python Data Science Handbook <https://jakevdp.github.io/PythonDataScienceHandbook/>
-+ Archer (2011) Global Warming: Understanding the Forecast, 2nd edition. Associated website with video lecutres <http://forecast.uchicago.edu>
++ Archer (2011) Global Warming: Understanding the Forecast, 2nd edition. 
+	Associated website, video lectures, Cousera link, online models <http://forecast.uchicago.edu>
 + Williams and Follows (2011) Ocean Dynamics and the Carbon Cycle <https://www.cambridge.org/core/books/ocean-dynamics-and-the-carbon-cycle/31EF28FEF48A172FF746B3E654F9455A>
 
 #### Class policy
