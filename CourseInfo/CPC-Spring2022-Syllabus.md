@@ -1,7 +1,7 @@
 ![Image of CU-stat](https://res.cloudinary.com/tz33cu/image/upload/v1636673747/Tian-teaching/Screen_Shot_2021-11-11_at_6.35.28_PM.png)
 
 #### STAT GR5243/GU4243 | crosslisted in EESC
-### Climate Predication Challenge
+### Climate Predication Challenges
 
 #### Learning Earth with AI and Physics (LEAP), an NSF Science and Technology Center (STC)
 
