@@ -9,7 +9,7 @@
 
 ## Pre-requisite Learning Resources
 
-For this interdisciplinary project-based learning course, students from different background will learn to collaborate and solve challenging problems together. To make such a collaboration efficient and rewarding for all members of an interdisciplinary team, it is key to learn each other's vocabulary and basic principles. In the following we list some learning resources on the basics of climate science and data science. 
+For this interdisciplinary project-based learning course, students from different background will learn to collaborate and solve challenging research-inspired problems together. To make such a collaboration efficient and rewarding for all members of an interdisciplinary team, it is key to learn each other's vocabulary and basic principles. In the following we list some learning resources on the basics of climate science and data science. 
 
 ### Climate Science
 + [Video lectures](http://forecast.uchicago.edu/lectures.html) (~10 hours) from David Archer (University of Chicago), author of the book on "Global Warming". Students who are unfamiliar with climate science should try to watch all the videos before the semester starts.  There is alos a [coursera version](https://www.coursera.org/learn/global-warming/home/info) of this course. 
