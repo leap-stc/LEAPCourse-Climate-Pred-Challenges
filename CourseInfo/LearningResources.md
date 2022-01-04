@@ -3,7 +3,7 @@
 #### STAT GR5243/GU4243 | crosslisted in EESC
 ### Climate Predication Challenges
 
-#### A course offered by the Center for *Learning Earth with AI and Physics* (LEAP), an NSF Science and Technology Center (STC)
+#### A course offered by the [Center for *Learning Earth with AI and Physics* (LEAP)](https://leap.columbia.edu/), an NSF Science and Technology Center (STC)
 
 <br/>
 
