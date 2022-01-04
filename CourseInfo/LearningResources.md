@@ -12,7 +12,7 @@
 For this interdisciplinary project-based learning course, students from different background will learn to collaborate and solve challenging research-inspired problems together. To make such a collaboration efficient and rewarding for all members of an interdisciplinary team, it is key to learn each other's vocabulary and basic principles. In the following we list some learning resources on the basics of climate science and data science. 
 
 ### Climate Science
-+ [Video lectures](http://forecast.uchicago.edu/lectures.html) (~10 hours) from David Archer (University of Chicago), author of the book on "Global Warming". Students who are unfamiliar with climate science should try to watch all the videos before the semester starts.  There is alos a [coursera version](https://www.coursera.org/learn/global-warming/home/info) of this course. 
++ [Video lectures](http://forecast.uchicago.edu/lectures.html) (~10 hours) from David Archer (University of Chicago), author of the book on "Global Warming". Students who are unfamiliar with climate science should try to watch all the videos before the semester starts.  There is also a [coursera version](https://www.coursera.org/learn/global-warming/home/info) of this course. 
 + A coursera course by David Archer on ["*Create Your Own Models in Python*"](https://www.coursera.org/learn/global-warming-model) as a great way to learn about earth system models for data scientists who already know Python or not. 
 + Youtube videos
 	+ [How does the climate system work?](https://www.youtube.com/watch?v=lrPS2HiYVp8)
