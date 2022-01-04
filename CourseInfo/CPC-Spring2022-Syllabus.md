@@ -18,18 +18,15 @@
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
 		* LEAP Deputy Director.
 		* Office hours: TBD	
-	* Kamiar Rahnama Rad <kr2248@columbia.edu> [(@RahnamaRad)](https://github.com/RahnamaRad) 
-		* Adjunct Assistant Professor, Department of Statistics, Columbia University. 
-		* Office hours: TBD 
 * Teaching Assistants
 	* TA: TBD
 	* Office hours: TBD
-* Course websites (all accessible via courseworks or github).			
+* Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
 	* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
 	* Course materials and repositories on **GitHub**: <https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges>
  
 #### Prerequisites
-The pre-requisite for this course includes working knowledge of high school science and math, statistics and probability, data mining, statistical modeling and machine learning. Prior programming experience in R or Python is required. Videos for crash courses in machine learning and programming are linked in courseworks.  
+The pre-requisite for this course includes working knowledge of high school science and math, statistics and probability, data mining, statistical modeling and machine learning, and fundamental terminologies of earth systems and climate science. Prior programming experience in R or Python is required. Videos for crash courses in machine learning and programming, and introduction to climate science can be found [here](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/CourseInfo/LearningResources.md).  
 
 #### Description  
 This course is a project-based learning (PBL) course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research. Students from different background will apply their prior knowledge, work together and teach each other in high-paced collaborative projects. Through a sequence of mini-project “challenges”, this course provides students a deeper understanding of using machine learning for climate science and support predictive capabilities. It provides training on a broad set of practical skills for climate data science research (e.g., handling geoscience data formats, data curation, cleaning and transformation, building ML workflow, and collaboration using Git and GitHub). It will also offer discussions on the opportunities and challenges of using climate science and projections in decision processes.
