@@ -8,7 +8,10 @@
 <br/>
 
 #### Course Information
-* Classes: Time TBD, Room TBD
+* Classes: 
+	* Tuesdays 4:10 PM-6:40 PM
+	* Room 903 (9th floor) [School of Social Work, 1255 Amdsterdam](https://stat.columbia.edu/location-and-directions/)
+	* Classes during the first two weeks will be virtual, per University's COVID policy.
 * Instructors: 
 	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
 		* Professor of [Statistics at Columbia](http://stat.columbia.edu)
@@ -19,24 +22,24 @@
 		* LEAP Deputy Director.
 		* Office hours: TBD	
 * Teaching Assistants
-	* TA: TBD
+	* TA: Jiaxu Li
 	* Office hours: TBD
 * Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
 	* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
-	* Course materials and repositories on **GitHub**: <https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges>
+	* Course materials and repositories on **GitHub** and shared via **Courseworks**: <https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges>
  
 #### Prerequisites
 The pre-requisite for this course includes working knowledge of high school science and math, statistics and probability, data mining, statistical modeling and machine learning, and fundamental terminologies of earth systems and climate science. Prior programming experience in R or Python is required. Videos for crash courses in machine learning and programming, and introduction to climate science can be found [here](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/CourseInfo/LearningResources.md).  
 
 #### Description  
-This course is a project-based learning (PBL) course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research. Students from different background will apply their prior knowledge, work together and teach each other in high-paced collaborative projects. Through a sequence of mini-project “challenges”, this course provides students a deeper understanding of using machine learning for climate science and support predictive capabilities. It provides training on a broad set of practical skills for climate data science research (e.g., handling geoscience data formats, data curation, cleaning and transformation, building ML workflow, and collaboration using Git and GitHub). It will also offer discussions on the opportunities and challenges of using climate science and projections in decision processes.
+This course is a project-based learning (PBL) course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research. Students from different background will apply their prior knowledge, work together and teach each other in high-paced collaborative projects. Through a sequence of mini-projects, i.e., “*challenges*”, this course provides students a deeper understanding of using machine learning for climate science and support predictive capabilities. It provides training on a broad set of practical skills for climate data science research (e.g., handling geoscience data formats, data curation, cleaning and transformation, building ML workflow, and collaboration using Google drive, Google Colab, Git and/or GitHub). It will also offer discussions on the opportunities and challenges of using climate science and projections in decision processes.
 
 **No formal instruction on statistics, data science, machine learning, or climate science will be given**. Project cycles run every 4 weeks, where we will have mini-group data projects. Groups will be formed **randomly** with students from both climate science and data science background. Project products will be peer-reviewed, in addition to evaluation by the instructional team.
 
 #### Course organization
 This course will have a total of *three* project cycles. Each project cycle follows a sequence of four types of activities. 
 
-**a**. Dataset release, introduction to *climae data science* problem, individual exercises, team forming
+**a**. Dataset/challenge release, introduction to *climae data science* problem, individual exercises, team forming
 
 **b**. Lecture/tutorial
 
@@ -44,7 +47,7 @@ This course will have a total of *three* project cycles. Each project cycle foll
 
 **d**. Team presentation, peer reviews, within-team peer reviews
 
-Students will be working in teams of 3 students that will be randomly formed. For a meaningful experience in climate data science, students are expected to collaborate and work together on all the stages of a project. Code sharing and brainstorming are great opportunities to learn from each other. 
+Students will be working in teams of 4-5 students that will be randomly formed. For a meaningful experience in climate data science, students are expected to collaborate and work together on all the stages of a project. Code sharing and brainstorming are great opportunities to learn from each other. 
 
 We will have a total of three project cycles for this course (topics are subject to change):
 
@@ -80,9 +83,8 @@ Students' performance will be evaluated based on
 	##### A note on participation evaluation. 
 	In addition to individual tasks such as peer reviews, for each project, we will enforce formal evaluation of participation as follows. 
 	
-	* Each project needs to show clear collaboration and task assignments in courseworks using the group discussion function. 
-	* Teams should try to use GitHub to coordinate code sharing and project development throughout the project. GitHub activities will be used as part of participation evaluation. 
-	* Students should participate actively in class discussion and piazza discussion. 
+	* Each project needs to have clearly communicated collaboration and task assignments, as part of a contribution statement for each project submission. 
+	* Students should participate actively in class discussion and online discussion. 
 	* We will give participation score for each project cycle, the average of which will contribute to 15% of your final grade. The participation will be graded on the following curve. 
 	
 		* A (1.8-2): project leader, major contributor who contribute substantially in every stage of the project and class discussions. 
@@ -92,7 +94,7 @@ Students' performance will be evaluated based on
 	* This is to ensure a positive learning process for all of us.  
 
 #### Communication
-Projects grades are managed in courseworks. We will be using the courseworks' discussion/announcement tools for our class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TAs, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
+Projects grades are managed in courseworks. We will be using the courseworks' discussion/announcement tools for our class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
 
 #### Textbook
 There is no required text. As part of this course, we will learn from what we can find online and in academic papers. Here are a couple of recommended reference books. 

@@ -6,13 +6,18 @@ A project-based learning course where teams of climate science and data science 
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
-### Project cycle 1: (Individual) Notebook for exploratory data analysis 
+### Project cycle 1: Jupyter Notebook for Exploratory Data Analysis 
 ([starter codes](Projects_StarterCodes/Project1-Notebook))
 #### Week 1 (Jan 18)
-+ Introduction to CPC
-+ [Project 1 description](Projects_StarterCodes/Project1-Notebook/doc/Proj1_desc.md)
-+ [Tutorial] + [Example]
-+ [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
++ Introduction to LEAP CPC (Zheng)
++ Introduction to Earth Systems and Climate Change (McKinley)
++ [Project 1 description](Projects_StarterCodes/Project1-Notebook/doc/Proj1_desc.md) Hurricanes and Clime Change
+	+ [A tutorial on Google Colab](https://www.youtube.com/watch?v=inN8seMm7UI)
++ Team activities
+	+ Self introduction and a fun fact
+	+ The LEAP crossword challenge
+	+ Find a time to review and discuss project 1 materials as a group
+	+ 
 
 #### Week 2 (Jan 25)
 + Climate Science Tutorial
