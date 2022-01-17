@@ -1,6 +1,6 @@
 # # Project 1: Exploring Association bewteen Hurricane Tracks and Climate Change
 
-### [Full Project Description](doc/proj1_desc.md)
+### [Full Project Description](doc/Proj1-desc.md)
 
 Term: Spring 2022
 
