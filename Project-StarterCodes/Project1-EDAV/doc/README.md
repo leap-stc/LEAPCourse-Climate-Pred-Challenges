@@ -1,4 +1,4 @@
-# Project: Template
+# Project 1: Exploring Association bewteen Hurricane Tracks and Climate Change
 
 ### Doc folder
 

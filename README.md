@@ -7,7 +7,7 @@ A project-based learning course where teams of climate science and data science 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
 ### Project cycle 1: Jupyter Notebook for Exploratory Data Analysis 
-([starter codes](Projects_StarterCodes/Project1-Notebook))
+([starter codes](Projects_StarterCodes/Project1-EDVA))
 #### Week 1 (Jan 18)
 + Introduction to LEAP CPC (Zheng)
 + Introduction to Earth Systems and Climate Change (McKinley)
