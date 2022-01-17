@@ -65,6 +65,7 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 ##### Project tools
 * A brief [guide](http://rogerdudler.github.io/git-guide/) to git.
 * Putting your project on [GitHub](https://guides.github.com/introduction/getting-your-project-on-github/).
+* [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ##### Examples
 + [How you would visualize hurricane](https://www.storytellingwithdata.com/blog/2017/10/1/how-youd-visualize-hurricanes) by Storytelling with Data.
