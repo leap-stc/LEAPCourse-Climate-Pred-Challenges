@@ -7,7 +7,7 @@ A project-based learning course where teams of climate science and data science 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
 ### Project cycle 1: Jupyter Notebook for Exploratory Data Analysis 
-([starter codes](Projects_StarterCodes/Project1-EDAV))
+([starter codes](Project-StarterCodes/Project1-EDAV))
 #### Week 1 (Jan 18)
 + Introduction to LEAP CPC (Zheng)
 + Introduction to Earth Systems and Climate Change (McKinley)
@@ -37,10 +37,10 @@ A project-based learning course where teams of climate science and data science 
 
 ### Project cycle 2: Physics-Informed Machine Learning
 
-([starter codes](Projects_StarterCodes/Project2_PhysicsML))
+([starter codes](Project-StarterCodes/Project2-PhysicsML))
 
 #### Week 4 (Feb 8)
-+ [Project 2](Projects_StarterCodes/Project2_PhysicsML) starts.
++ [Project 2](Project-StarterCodes/Project2-PhysicsML) starts.
     	
 #### Week 5 (Feb 15)
 + Data Science Tutorial
@@ -61,10 +61,10 @@ A project-based learning course where teams of climate science and data science 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
 ### Project cycle 3: Predictive Modeling
-([starter codes](Projects_StarterCodes/Project3_PredModel))
+([starter codes](Project-StarterCodes/Project3-PredModel))
 
 #### Week 8 (Mar 8)
-+ [Project 3](Projects_StarterCodes/Project3_PredModel) starts.
++ [Project 3](Project-StarterCodes/Project3-PredModel) starts.
 
 #### Week 9 (Mar 22)
 + Climate Science Tutorial
