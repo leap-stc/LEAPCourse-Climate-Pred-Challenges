@@ -11,7 +11,7 @@ A project-based learning course where teams of climate science and data science 
 #### Week 1 (Jan 18)
 + Introduction to LEAP CPC (Zheng)
 + Introduction to Earth Systems and Climate Change (McKinley)
-+ [Project 1 description](Projects_StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes and Clime Change* starts
++ [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes and Clime Change* starts
 	+ [A tutorial on Google Colab](https://www.youtube.com/watch?v=inN8seMm7UI)
 + Team activities
 	+ Self introduction and a fun fact
