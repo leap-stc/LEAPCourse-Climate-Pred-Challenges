@@ -9,7 +9,7 @@ A project-based learning course where teams of climate science and data science 
 ### Project cycle 1: Jupyter Notebook for Exploratory Data Analysis 
 ([starter codes](Project-StarterCodes/Project1-EDAV))
 #### Week 1 (Jan 18)
-+ Introduction to LEAP CPC (Zheng)
++ [Introduction to LEAP CPC](https://docs.google.com/presentation/d/e/2PACX-1vSYvc8hCTbfZg6K8ajhIYn-DJ2VB1Cbc3HNAiDUW0EF0bSb8omlHtk5rbh8pEvWZvKCIidavWV_qpOP/pub?start=false&loop=false&delayms=3000) (Zheng)
 + Introduction to Earth Systems and Climate Change (McKinley)
 + [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes and Clime Change* starts
 	+ [A tutorial on Google Colab](https://www.youtube.com/watch?v=inN8seMm7UI)
