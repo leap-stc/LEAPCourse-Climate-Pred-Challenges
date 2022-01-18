@@ -51,7 +51,7 @@ Students will be working in teams of 4-5 students that will be randomly formed. 
 
 We will have a total of three project cycles for this course (topics are subject to change):
 
-1. [Individual] Reproducible notebook for exploratory data analysis of climate data sets
+1. [Group] Reproducible notebook for exploratory data analysis of climate data sets
 2. [Group] Physics-informed machine learning
 3. [Group] Predictive modeling with uncertainty quantification
 
