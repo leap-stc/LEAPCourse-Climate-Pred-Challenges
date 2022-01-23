@@ -20,7 +20,7 @@ A project-based learning course where teams of climate science and data science 
 
 #### Week 2 (Jan 25)
 + Tutorial on EDAV (Zheng)
-+ A deep dive into Project 1
++ [A deep dive into Project 1](https://docs.google.com/presentation/d/e/2PACX-1vTEhJJedjC9Vrh9SUgoUw7REqazHFkLFXgyyhrd5s9lVYJIeolvcoQYfjsqUU7TojwM0ICviTnQnweJ/pub?start=false&loop=false&delayms=3000)
 + Project 1 starter codes (Jiaxu Li)
 + Discussion and Q&A
 
