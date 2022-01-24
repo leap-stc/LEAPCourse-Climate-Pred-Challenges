@@ -50,7 +50,7 @@ This is a relatively shorter project of the semester. We have about three weeks 
 4. [wk3] Week 3 is the **discussion and writing** week. Finalize your analysis for the notebook and write discussions on the results in relevance to hurricanes and climate change. 
 
 #### Submission
-You should produce a [Google Colab](https://colab.research.google.com/?utm_source=scs-index) notebook, where you should write a story on "how Hurricanes are evovling in a changing climate" based on your data analysis. Your story, especially *main takeways* should be **supported by** your results and appropriate visualization. 
+You should produce a [Google Colab](https://colab.research.google.com/?utm_source=scs-index) notebook, where you should write a story on "How hurricanes are evolving in a changing climate" based on your data analysis. Your story, especially *main takeways* should be **supported by** your results and appropriate visualization. 
 
 Your story should NOT be a laundry list of all analyses you have tried on the data or how you solved a technical issue in your analysis, no matter how fascinating that might be. 
 
