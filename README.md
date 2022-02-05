@@ -82,7 +82,7 @@ A project-based learning course where teams of climate science and data science 
 + Tutorials
 + Q&A
 
-#### Week 13 (Apr 12)
+#### Week 13 (Apr 19)
 + Tutorials
 + Q&A
 
