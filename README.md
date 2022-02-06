@@ -4,7 +4,7 @@
 
 A project-based learning course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research
 
-##### Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
+##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
 ### Project cycle 1: Jupyter Notebook for Exploratory Data Analysis 
 ([starter codes](Project-StarterCodes/Project1-EDAV))
@@ -21,7 +21,7 @@ A project-based learning course where teams of climate science and data science 
 #### Week 2 (Jan 25)
 + Tutorial on EDAV (Zheng)
 + [A deep dive into Project 1](Tutorials/Lecture02-A-Deep-Dive-into-the-Hurricane-Paper.pdf)
-+ [Project 1 starter codes](Project-StarterCodes/Project1-EDAV/lib/ (Jiaxu Li)
++ [Project 1 starter codes](Project-StarterCodes/Project1-EDAV/lib/Project1-Starter.ipynb) (Jiaxu Li)
 + Discussion and Q&A
 
 #### Week 3 (Feb 1)
@@ -33,7 +33,7 @@ A project-based learning course where teams of climate science and data science 
 + Project 1 presentations
 
 ----
-##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
+##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
 
 ### Project cycle 2: Physics-Informed Machine Learning
 
@@ -58,7 +58,7 @@ A project-based learning course where teams of climate science and data science 
 + Project 2 presentations
 
 ----
-##### Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
+##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
 ### Project cycle 3: Predictive Modeling
 ([starter codes](Project-StarterCodes/Project3-PredModel))
@@ -89,4 +89,4 @@ A project-based learning course where teams of climate science and data science 
 #### Week 14 (Apr 26)
 + Project 3 submission and presentations
 
-##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-individual-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
+##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
