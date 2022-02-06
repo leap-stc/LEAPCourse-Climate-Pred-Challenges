@@ -41,17 +41,19 @@ A project-based learning course where teams of climate science and data science 
 
 #### Week 4 (Feb 8)
 + [Project 2](Project-StarterCodes/Project2-PhysicsML) starts.
++ Introduction to Project 2 (McKinley and Zheng)
     	
 #### Week 5 (Feb 15)
-+ Data Science Tutorial
++ [Tutorial] The physics of temperature stratification (McKinley)
++ [Tutorial] A deep dive into Project 2's PGML (Zheng)
++ Project 2 starters codes (Jiaxu Li)
 + Discussion and Q&A
 
 #### Week 6 (Feb 22)
-+ Climate Science Tutorial
-+ Discussion and Q&A
++ [Tutorial] Algorithm validation and comparison
++ Brainstorming, Discussion and Q&A
 
 #### Week 7 (Mar 1)
-+ Data Science Tutorial
 + Discussion and Q&A
 
 #### Week 8 (Mar 8)
