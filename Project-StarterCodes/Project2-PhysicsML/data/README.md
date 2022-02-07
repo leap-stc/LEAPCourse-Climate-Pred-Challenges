@@ -1,4 +1,4 @@
-# Project: Template 
+# Project 2: Evaluating Physics-Guided Machine Learning Algorithms for Modeling Lake Stratification
 
 ### Data folder
 

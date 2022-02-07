@@ -1,6 +1,10 @@
-# Project: Template
+# Project: Project 2: Evaluating Physics-Guided Machine Learning Algorithms for Modeling Lake Stratification
 
-### [Full Project Description](doc/project3_desc.md)
+### [Full Project Description](doc/project2_desc.md)
+
+<img src="figs/glm.jpeg" alt="General Lake Model" width="500"/>
+
+(Image source: https://aed.see.uwa.edu.au/research/models/glm/)
 
 Term: Spring 2022
 
