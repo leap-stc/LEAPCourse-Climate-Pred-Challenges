@@ -100,6 +100,8 @@ The folder should be organized with subfolders.
 + Read, J. S., Jia, X., Willard, J., Appling, A. P., Zwart, J. A., Oliver, S. K., ... & Kumar, V. (2019). Process‐guided deep learning predictions of lake water temperature. [Water Resources Research, 55(11), 9173-9190](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024922).
 + Jia, X., Willard, J., Karpatne, A., Read, J., Zwart, J., Steinbach, M., & Kumar, V. (2019, May). Physics guided RNNs for modeling dynamical systems: A case study in simulating lake temperature profiles. [In Proceedings of the 2019 SIAM International Conference on Data Mining (pp. 558-566). Society for Industrial and Applied Mathematics](https://epubs.siam.org/doi/pdf/10.1137/1.9781611975673.63).
 + Jia, X., Willard, J., Karpatne, A., Read, J. S., Zwart, J. A., Steinbach, M., & Kumar, V. (2021). Physics-guided machine learning for scientific discovery: An application in simulating lake temperature profiles. [ACM/IMS Transactions on Data Science, 2(3), 1-26](https://dl.acm.org/doi/abs/10.1145/3447814).
++ [Supplement file](https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2019WR024922&file=wrcr24269-sup-0001-2019WR024922-SI.docx) for the paper Read et al (2019)
++ [Data](https://www.sciencebase.gov/catalog/item/5d88ea50e4b0c4f70d0ab3c0) and [original codes](https://zenodo.org/record/3497495#.YgB85_XMIqv) of Read et al (2019)
 + [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/). colah's blog (August 27, 2015)
 + PyTorch tutorial on [LSTM](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
 
