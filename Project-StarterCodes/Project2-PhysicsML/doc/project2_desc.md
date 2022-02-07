@@ -13,6 +13,8 @@ For this project, you will download the Lake Mendota temperature data studied by
 
 The computatability of such ML algorithms is an important factor in research. For computationally more expensive algoriths, we would like to see a notable improvement in performance. 
 
+Here are some [starter codes](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/Project-StarterCodes/Project2-PhysicsML/lib/Lake_PyTorch.ipynb) for this project.
+
 #### Evaluation criteria 
 - Ease of reproducibility by the instruction team
 	* are the codes for the proposed evaluations well annotated and documented?
