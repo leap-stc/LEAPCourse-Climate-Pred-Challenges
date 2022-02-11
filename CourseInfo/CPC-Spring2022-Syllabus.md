@@ -21,9 +21,6 @@
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
 		* LEAP Deputy Director.
 		* Office hours: TBD	
-* Teaching Assistants
-	* TA: Jiaxu Li
-	* Office hours: TBD
 * Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
 	* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
 	* Course materials and repositories on **GitHub** and shared via **Courseworks**: <https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges>
