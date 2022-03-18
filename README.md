@@ -44,13 +44,13 @@ A project-based learning course where teams of climate science and data science 
 + Introduction to Project 2 (McKinley and Zheng)
     	
 #### Week 5 (Feb 15)
-+ [Tutorial] The physics of temperature stratification (McKinley)
-+ [Tutorial] A deep dive into Project 2's PGML (Zheng)
-+ Project 2 [starters codes](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/Project-StarterCodes/Project2-PhysicsML/lib/Lake_PyTorch.ipynb)
++ [Tutorial] [The physics of temperature stratification](Tutorials/Lecture_lakeTemp.pdf) (McKinley)
++ [Tutorial] [A deep dive into Project 2's PGML](Tutorials/Lecture-PGML.pdf) (Zheng)
++ Project 2 [starters codes](Project-StarterCodes/Project2-PhysicsML/lib/Lake_PyTorch.ipynb)
 + Discussion and Q&A
 
 #### Week 6 (Feb 22)
-+ [Tutorial] Algorithm validation and comparison
++ [Tutorial] [More on energy conservation](Tutorials/Lecture3_PGML_lakeTemp_EC.pdf) (McKinley)
 + Brainstorming, Discussion and Q&A
 
 #### Week 7 (Mar 1)
