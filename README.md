@@ -65,27 +65,26 @@ A project-based learning course where teams of climate science and data science 
 ### Project cycle 3: Predictive Modeling
 ([starter codes](Project-StarterCodes/Project3-PredModel))
 
-#### Week 8 (Mar 8)
-+ [Project 3](Project-StarterCodes/Project3-PredModel) starts.
-
 #### Week 9 (Mar 22)
-+ Climate Science Tutorial
++ [Project 3](Project-StarterCodes/Project3-PredModel) starts.
++ Climate Science Tutorial on "Air-Sea Flux of CO2" (McKinley)
 + Discussion and Q&A
  
 #### Week 10 (Mar 29)
-+ Data Science Tutorial
-+ Discussion and Q&A
++ Tutorial on decision tree, random forests and xgboost (Zheng)
++ Review of starter codes (Xiaoshu Zhao)
++ Discussion of papers and Q&A
 
 #### Week 11 (Apr 5)
-+ Project 3 update
-+ Q&A
++ Q&A on starter codes (Xiaoshu Zhao)
++ Discussion of research ideas
 
 #### Week 12 (Apr 12)
-+ Tutorials
-+ Q&A
++ Tutorials on explainable AI (Zheng)
++ Q&A on research ideas (McKinley)
 
-#### Week 13 (Apr 12)
-+ Tutorials
+#### Week 13 (Apr 19)
++ Guest lecture on LEAP's vision
 + Q&A
 
 #### Week 14 (Apr 26)
