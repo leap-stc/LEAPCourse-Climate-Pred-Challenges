@@ -1,6 +1,8 @@
-# Project: Template
+# Project 3: Algorithmic developments for reconstructing air-sea CO$_2$ exchange
 
 ### [Full Project Description](doc/project3_desc.md)
+
+<img src="figs/title.png" alt="General Lake Model" width="500"/>
 
 Term: Spring 2022
 
