@@ -63,21 +63,19 @@ The instructional team will evaluate your report using Google Colab with a [pro 
 The folder could be organized with subfolders.
 
 ```
-├──data/
 ├──doc/
+├──ESM/
 ├──figs/
 ├──lib/
 ├─────/main.ipynb
 ├──models/
-├──other_file/
 ├──README.md
 ```
-- In `data`, team members should individually save **raw** data downloaded. 
 - The `doc` folder should have documentations for this project, presentation files and other supporting materials. 
+- The `ESM` folder contains data from the ESMs
 - The `figs` folder contains figure files produced during the project and running of the codes. 
 - The `lib` folder contain codes for the project. It may  have multiple files to contain subroutines. 
-- The `models` folder contain CESM model outputs,  reconstruction and performance metrics.
-- The `other_file` folder is the holding place for other files the might be useful for the project.
+- The `models` folder contain ML model outputs,  reconstruction and performance metrics.
 
 #### Useful Recourses
 
