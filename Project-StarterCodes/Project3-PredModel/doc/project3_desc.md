@@ -26,7 +26,7 @@ In this project, we will conduct research to further our understanding of machin
 	+ Are the methodology and results presented with appropriate visualization?
 	+ Is the notebook organized and prepared in a way that makes it easier for readers to understand the proposed research, its method, implementation, results, and conclusion?
 
-*(More details will be posted as grading rubrics in courseoworks/canvas)*
+*(More details will be posted as grading rubrics in courseworks/canvas)*
 
 #### Project details
 
