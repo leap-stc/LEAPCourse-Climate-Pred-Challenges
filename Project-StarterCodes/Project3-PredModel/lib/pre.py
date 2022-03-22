@@ -154,7 +154,7 @@ def log_or_0(array_1d):
 
 def import_member_data(ensemble_dir_head, ens, member, dates, xco2_path=f"{root_dir}/../models/CESM001/member_001/XCO2_1D_mon_CESM001_native_198201-201701.nc"):
     
-    member_dir = f'{root_dir}/../models/CanESM2r1r10/member_r1r10'
+    member_dir = f'{ensemble_dir_head}/CanESM2r1r10/member_r1r10'
     if ens == "CanESM2":
         # CanESM2 files are mislabeled as going to 201712
         
@@ -427,6 +427,7 @@ def detrend(y, N_time, period, x, frac_lo, frac_resid_lo, it_lo, delta_lo):
     # y_resid = y_deseason - y_decadal
     # y_resid_lo = apply_lowess(y_resid, x, frac_resid_lo, it_lo, delta_lo)
     
+    # add return of y_decadal, y_resid, and y_resid_lo if you want apply lowess
     return y_detrend, y_seasonal, y_deseason
 
 def apply_detrend(approach, ens, member):
