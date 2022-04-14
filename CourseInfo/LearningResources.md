@@ -22,6 +22,7 @@ For this interdisciplinary project-based learning course, students from differen
 
 ### Data Science
 + [A collection of visual cheatsheets of machine learning](https://stanford.edu/~shervine/teaching/cs-229/) by [Shervine Amidi](https://stanford.edu/~shervine/) and [Afshine Amidi](https://www.mit.edu/~amidi/). 
++ Google's [Introdcution to Machine Learning Problem Framing](https://developers.google.com/machine-learning/problem-framing) (~ 1 hour)
 + Google's [Machine Learning crash course](https://developers.google.com/machine-learning/crash-course) (~15 hours). Students who are unfamiliar with machine learning should try to watch all the videos before the semester starts. Each section of the crash course has both a video component and some readings. If unsure, one can review the readings first to decide whether to watch the video in full. 
 + [Machine Learning Glossary](https://ml-cheatsheet.readthedocs.io/en/latest/) recommended by [Professor Laure Zanna](https://laurezanna.github.io/), one of LEAP senior researchers. 
 + ["*An Introduction to Earth and Environmental Data Science*"](https://earth-env-data-science.github.io/intro.html) by Professor [Ryan Abernathey](https://ocean-transport.github.io/), one of LEAP senior researchers, which covers some data science tools that are valuable to climate science research. 
