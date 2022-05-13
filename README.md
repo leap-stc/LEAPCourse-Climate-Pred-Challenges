@@ -71,7 +71,7 @@ A project-based learning course where teams of climate science and data science 
 + Discussion and Q&A
  
 #### Week 10 (Mar 29)
-+ [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3_Trees.pdf) (Zheng)
++ [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3-Trees.pdf) (Zheng)
 + Review of starter codes (Xiaoshu Zhao)
 + Discussion of papers and Q&A
 
