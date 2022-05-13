@@ -80,7 +80,7 @@ A project-based learning course where teams of climate science and data science 
 + Discussion of research ideas
 
 #### Week 12 (Apr 12)
-+ [Tutorials on explainable AI](Tutorials/Project 3 - Explainable AI.pdf) (Zheng)
++ [Tutorials on explainable AI](Tutorials/Project%203%20-%20Explainable%20AI.pdf) (Zheng)
 + Q&A on research ideas (McKinley)
 
 #### Week 13 (Apr 19)
