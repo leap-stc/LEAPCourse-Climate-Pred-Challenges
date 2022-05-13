@@ -67,11 +67,11 @@ A project-based learning course where teams of climate science and data science 
 
 #### Week 9 (Mar 22)
 + [Project 3](Project-StarterCodes/Project3-PredModel) starts.
-+ Climate Science Tutorial on "Air-Sea Flux of CO2" (McKinley)
++ [Climate Science Tutorial on "Air-Sea Flux of CO2"](Tutorials/Project3_Science_McKinley_22March2022.pdf) (McKinley)
 + Discussion and Q&A
  
 #### Week 10 (Mar 29)
-+ Tutorial on decision tree, random forests and xgboost (Zheng)
++ [Tutorial on decision tree, random forests and xgboost]((Tutorials/Project3_Trees.pdf) (Zheng)
 + Review of starter codes (Xiaoshu Zhao)
 + Discussion of papers and Q&A
 
@@ -80,11 +80,10 @@ A project-based learning course where teams of climate science and data science 
 + Discussion of research ideas
 
 #### Week 12 (Apr 12)
-+ Tutorials on explainable AI (Zheng)
++ [Tutorials on explainable AI](Tutorials/Project 3 - Explainable AI.pdf) (Zheng)
 + Q&A on research ideas (McKinley)
 
 #### Week 13 (Apr 19)
-+ Guest lecture on LEAP's vision
 + Q&A
 
 #### Week 14 (Apr 26)
