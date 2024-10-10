@@ -1,7 +1,7 @@
 ![Image of CU-stat](https://res.cloudinary.com/tz33cu/image/upload/v1636673747/Tian-teaching/Screen_Shot_2021-11-11_at_6.35.28_PM.png)
 
-#### STAT GR5243/GU4243 | crosslisted in EESC
-### Climate Predication Challenges
+#### EESC GU4243 (meets with STAT GR5243/GU4243) 
+### Climate Predication Challenges with Machine Learning
 
 #### A course offered by the [Center for *Learning Earth with AI and Physics* (LEAP)](https://leap.columbia.edu/), an NSF Science and Technology Center (STC)
 
@@ -10,17 +10,17 @@
 #### Course Information
 * Classes: 
 	* Tuesdays 4:10 PM-6:40 PM
-	* Room 903 (9th floor) [School of Social Work, 1255 Amdsterdam](https://stat.columbia.edu/location-and-directions/)
+	* Room TBD
 	* Classes during the first two weeks will be virtual, per University's COVID policy.
-* Instructors: 
-	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
-		* Professor of [Statistics at Columbia](http://stat.columbia.edu)
-		* LEAP Chief Convergence Officer and Education Director. 
-		* Office hours: TBD
-	* Galen McKinley <mckinley@ldeo.columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
-		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
-		* LEAP Deputy Director.
-		* Office hours: TBD	
+* Instructors:
+  	* Galen McKinley mckinley@ldeo.columbia.edu (@galenmckinley)
+		* Professor of Earth and Environmental Sciences at Columbia and LDEO
+		* Office hours: TBD
+	* Tian Zheng tian.zheng@columbia.edu (@tz33cu).
+		* Professor of Statistics at Columbia 
+		* LEAP STC Deputy Director
+		* Office hours: TBD
+
 * Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
 	* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
 	* Course materials and repositories on **GitHub** and shared via **Courseworks**: <https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges>
