@@ -16,8 +16,6 @@
   	* Galen McKinley mckinley@ldeo.columbia.edu (@galenmckinley)
   	  
 	* Professor of Earth and Environmental Sciences at Columbia and LDEO
-   
-	* Office hours: TBD
 
 	* Tian Zheng tian.zheng@columbia.edu (@tz33cu).
 		* Professor of Statistics at Columbia 
