@@ -14,8 +14,8 @@
 	* Classes during the first two weeks will be virtual, per University's COVID policy.
 * Instructors:
   	* Galen McKinley mckinley@ldeo.columbia.edu (@galenmckinley)
-		* Professor of Earth and Environmental Sciences at Columbia and LDEO
-		* Office hours: TBD
+	- Professor of Earth and Environmental Sciences at Columbia and LDEO
+	- Office hours: TBD
 	* Tian Zheng tian.zheng@columbia.edu (@tz33cu).
 		* Professor of Statistics at Columbia 
 		* LEAP STC Deputy Director
