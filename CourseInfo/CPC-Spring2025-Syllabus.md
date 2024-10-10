@@ -106,14 +106,12 @@ There is no required text. As part of this course, we will learn from what we ca
 	Associated website, video lectures, Cousera link, online models <http://forecast.uchicago.edu>
 + Williams and Follows (2011) Ocean Dynamics and the Carbon Cycle <https://www.cambridge.org/core/books/ocean-dynamics-and-the-carbon-cycle/31EF28FEF48A172FF746B3E654F9455A>
 
-#### Class policy
+#### Teamwork and academic integrity
 
 * We learn together through projects. Please stay positive and congenial. Share what you know with your peers and also learn from them.
 
 * Working towards deadlines can be stressful. Remember, emails or online posts do NOT have tones. Be mindful about how you phrase your questions, comments, inquries and suggestions. Also be generous when reading them. 
 
-* Academic Integrity is the cornerstone of meaningful teaching and learning. It is especially important for our project-based course. Remember what matters more is how much you learn not what grade you will get. In your project, document references and resources that have been incorporated into your project and accredit them appropriately. Plagiarism is one of the most likely forms of cheating in this course. 
-
-* Be a good team member and contribute to each project as much as you can. Don't underestimate the efforts of your teammates. Something seems simple may not be that simple. 
-
-
+* Be a good team member and contribute to each project as much as you can. Don't underestimate the efforts of your teammates. Something seems simple may not be that simple.
+  
+* Academic Integrity is the cornerstone of meaningful teaching and learning. It is especially important for our project-based course. Remember what matters more is how much you learn not what grade you will get. In your project, document references and resources that have been incorporated into your project and accredit them appropriately. Plagiarism is one of the most likely forms of cheating in this course.
