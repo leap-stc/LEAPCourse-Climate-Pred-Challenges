@@ -28,7 +28,4 @@ For this interdisciplinary project-based learning course, students from differen
 + ["*An Introduction to Earth and Environmental Data Science*"](https://earth-env-data-science.github.io/intro.html) by Professor [Ryan Abernathey](https://ocean-transport.github.io/), one of LEAP senior researchers, which covers some data science tools that are valuable to climate science research. 
 + A coursera course by David Archer on ["*Create Your Own Models in Python*"](https://www.coursera.org/learn/global-warming-model) as a great way to learn Python for climate scientiets. 
 
-### Project-Based Learning and Teamwork
-
-*Forthcoming*
 
