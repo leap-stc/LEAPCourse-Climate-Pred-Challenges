@@ -10,7 +10,7 @@
 #### Course Information
 * Classes: 
 	* Tuesdays 4:10 PM-6:40 PM
-	* Room TBD
+	* Room 417 Schermerhorn
 	* Classes during the first two weeks will be virtual, per University's COVID policy.
 * Instructors:
 	* Galen McKinley <mckinley@ldeo.columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
