@@ -90,7 +90,10 @@ Students' performance will be evaluated based on
 	* This is to ensure a positive learning process for all of us.  
 
 #### Communication
-Projects grades are managed in courseworks. We will be using the courseworks' discussion/announcement tools for our class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
+Project grades are managed in Courseworks. We will use the Courseworks discussion/announcement tools for our class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online. Emails related to learning and projects shall be redirected to our discussion board.
+
+Students are expected to check emails at least once every 12 hours during the week and every 24 hours over the weekend. They should also make sure not to miss any important class-related announcements sent by email or posted on Courseworks. Emails will be delivered to the student's official UNI. If they choose to use an alternative email address, it is the student’s responsibility to ensure that these emails are properly forwarded.
+
 
 #### Textbook
 There is no required text. As part of this course, we will learn from what we can find online and in academic papers. Here are a couple of recommended reference books. 
@@ -112,11 +115,5 @@ There is no required text. As part of this course, we will learn from what we ca
 * Academic Integrity is the cornerstone of meaningful teaching and learning. It is especially important for our project-based course. Remember what matters more is how much you learn not what grade you will get. In your project, document references and resources that have been incorporated into your project and accredit them appropriately. Plagiarism is one of the most likely forms of cheating in this course. 
 
 * Be a good team member and contribute to each project as much as you can. Don't underestimate the efforts of your teammates. Something seems simple may not be that simple. 
-
-* Emails related to learning and projects shall be redirected to our discussion board.
- 
-* Students are [expected](http://policylibrary.columbia.edu/student-email-communication-policy) to check emails at least once every 12 hours during the week and every 24 hours over the weekend. Students should make sure not to miss any important class-related announcements sent by emails or posted on Courseworks. Emails will be delivered to the students' official UNI. It is the students' responsibility to ensure that these emails are properly forwarded if they choose to use an alternative email address. 
-
-
 
 
