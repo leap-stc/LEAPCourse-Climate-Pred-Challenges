@@ -13,11 +13,13 @@
 	* Room TBD
 	* Classes during the first two weeks will be virtual, per University's COVID policy.
 * Instructors:
-  	* Galen McKinley mckinley@ldeo.columbia.edu (@galenmckinley); Professor of Earth and Environmental Sciences at Columbia and LDEO
-
-	* Tian Zheng tian.zheng@columbia.edu (@tz33cu); Professor of Statistics at Columbia 
-		* LEAP STC Deputy Director
-		* Office hours: TBD
+	* Galen McKinley <mckinley@ldeo.columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
+		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
+		* Office hours: TBD	
+	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
+		* Professor of [Statistics at Columbia](http://stat.columbia.edu)
+		* LEAP Deputy Director
+		* Office hours: TBD
 
 * Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
 	* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
