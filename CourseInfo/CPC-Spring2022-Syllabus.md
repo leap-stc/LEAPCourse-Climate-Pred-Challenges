@@ -17,8 +17,7 @@
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
 		* Office hours: TBD	
 	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
-		* Professor of [Statistics at Columbia](http://stat.columbia.edu)
-		* LEAP Deputy Director
+		* Professor of [Statistics at Columbia](http://stat.columbia.edu) and LEAP Deputy Director
 		* Office hours: TBD
 
 * Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
