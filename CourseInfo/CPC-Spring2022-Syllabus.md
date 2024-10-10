@@ -47,27 +47,27 @@ Students will be working in teams of 4-5 students that will be randomly formed. 
 
 We will have a total of three project cycles for this course (topics are subject to change):
 
-1. [Group] Reproducible notebook for exploratory data analysis of climate data sets
-2. [Group] Physics-informed machine learning
-3. [Group] Predictive modeling with uncertainty quantification
+1.	[Group] Reproducible notebook for exploratory data analysis hurricane data
+2.	[Group] Ocean boundary layer parameterization
+3.	[Group] Extrapolation from sparse observations, with uncertainties
 
 Below is a tentative schedule we will follow.
 
-+ Week 1 (Jan 18): 1a+1b
-+ Week 2 (Jan 25): 1b+1c
-+ Week 3 (Feb 1): 1b+1c
-+ Week 4 (Feb 8): 1d+2a
-+ Week 5 (Feb 15): 2b+2c
-+ Week 6 (Feb 22): 2b+2c
-+ Week 7 (Mar 1): 2b+2c
-+ Week 8 (Mar 8): 2d
++ Week 1 (Jan 20): 1a+1b
++ Week 2 (Jan 27): 1b+1c
++ Week 3 (Feb 3): 1b+1c
++ Week 4 (Feb 10): 1d+2a
++ Week 5 (Feb 17): 2b+2c
++ Week 6 (Feb 24): 2b+2c
++ Week 7 (Mar 3): 2b+2c
++ Week 8 (Mar 10): 2d
 + Spring break: no class
-+ Week 9 (Mar 22): 3a+3b
-+ Week 10 (Mar 29): 3b+3c
-+ Week 11 (Apr 5): 3b+3c
-+ Week 12 (Apr 12): 3b+3c
-+ Week 13 (Apr 19): 3b+3c
-+ Week 14 (Apr 26): 3d
++ Week 9 (Mar 24): 3a+3b
++ Week 10 (Mar 31): 3b+3c
++ Week 11 (Apr 7): 3b+3c
++ Week 12 (Apr 14): 3b+3c
++ Week 13 (Apr 21): 3b+3c
++ Week 14 (Apr 28): 3d
 
 #### Evaluation
 
