@@ -15,7 +15,7 @@
 	* [Galen McKinley](https://galenmckinley.github.io) <mckinley@ldeo.columbia.edu> [(@galenmckinley)](https://github.com/galenmckinley)
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
 		* Office hours: TBD	
-	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
+	* [Tian Zheng](http://www.stat.columbia.edu/~tzheng/) <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
 		* Professor of [Statistics at Columbia](http://stat.columbia.edu) and LEAP Deputy Director
 		* Office hours: TBD
 
