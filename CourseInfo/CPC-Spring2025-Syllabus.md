@@ -12,7 +12,7 @@
 	* Tuesdays 4:10 PM-6:40 PM
 	* Room 417 Schermerhorn
 * Instructors:
-	* Galen McKinley <mckinley@ldeo.columbia.edu> [(@galenmckinley)](https://github.com/galenmckinley)
+	* [Galen McKinley](https://galenmckinley.github.io) <mckinley@ldeo.columbia.edu> [(@galenmckinley)](https://github.com/galenmckinley)
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
 		* Office hours: TBD	
 	* Tian Zheng <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
