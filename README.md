@@ -51,7 +51,7 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 + Discussion and Q&A
 
 #### Week 6 (Feb 24)
-+ [Tutorial] [More on ocean mixing] (McKinley)
++ [Tutorial] [Ocean mixing] (McKinley)
 + Brainstorming, Discussion and Q&A
 
 #### Week 7 (Mar 3)
