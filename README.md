@@ -86,7 +86,7 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 
 #### Week 13 (Apr 21)
 + [Tutorials on explainable AI](Tutorials/Project%203%20-%20Explainable%20AI.pdf) (Zheng)
-+ + Group work 
++ Group work 
 
 #### Week 14 (Apr 28)
 + Project 3 presentations
