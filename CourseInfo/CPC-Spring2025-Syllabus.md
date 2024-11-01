@@ -55,14 +55,14 @@ Below is a tentative schedule we will follow.
 + Week 1 (Jan 20): 1a+1b
 + Week 2 (Jan 27): 1b+1c
 + Week 3 (Feb 3): 1b+1c
-+ Week 4 (Feb 10): 1d+2a
-+ Week 5 (Feb 17): 2b+2c
++ Week 4 (Feb 10): 1d
++ Week 5 (Feb 17): 2a+2b
 + Week 6 (Feb 24): 2b+2c
 + Week 7 (Mar 3): 2b+2c
-+ Week 8 (Mar 10): 2d
++ Week 8 (Mar 10): 2b+2c
 + Spring break: no class
-+ Week 9 (Mar 24): 3a+3b
-+ Week 10 (Mar 31): 3b+3c
++ Week 9 (Mar 24): 2d
++ Week 10 (Mar 31): 3a+3b
 + Week 11 (Apr 7): 3b+3c
 + Week 12 (Apr 14): 3b+3c
 + Week 13 (Apr 21): 3b+3c
