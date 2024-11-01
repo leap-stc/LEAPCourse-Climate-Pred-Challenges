@@ -81,9 +81,6 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 + Discussion of papers and Q&A
 + Discussion of research ideas
   
-#### Week 11 (Apr 7)
-+ Group work
-
 #### Week 12 (Apr 14)
 + Group work 
 
