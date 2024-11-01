@@ -43,11 +43,9 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 
 ([starter codes])
 
-#### Week 4 (Feb 10)
+#### Week 5 (Feb 17)
 + [Project 2] starts.
 + Introduction to Project 2 (McKinley)
-    	
-#### Week 5 (Feb 17)
 + [Tutorial] [The challenge of parameterization] (McKinley)
 + Project 2 [starter codes]
 + Discussion and Q&A
@@ -57,39 +55,43 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 + Brainstorming, Discussion and Q&A
 
 #### Week 7 (Mar 3)
++ Visit by study lead author Dr. Sane
 + Discussion and Q&A
++ Group work
 
 #### Week 8 (Mar 10)
-+ Project 2 presentations
++ Group work
 
+#### Week 9 (Mar 24)
++ Project 2 presentations
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
 ### Project cycle 3: Machine Learning with Sparse Data
 ([starter codes](Project-StarterCodes/Project3-PredModel))
 
-#### Week 9 (Mar 24)
+#### Week 10 (Mar 31)
 + [Project 3](Project-StarterCodes/Project3-PredModel) starts.
 + [Climate Science Tutorial on "Air-Sea Flux of CO2"](Tutorials/Project3_Science_McKinley_22March2022.pdf) (McKinley)
++ Review of starter codes
 + Discussion and Q&A
  
-#### Week 10 (Mar 31)
-+ [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3-Trees.pdf) (Zheng)
-+ Review of starter codes (Xiaoshu Zhao)
-+ Discussion of papers and Q&A
-
 #### Week 11 (Apr 7)
-+ Q&A on starter codes (Xiaoshu Zhao)
++ [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3-Trees.pdf) (Zheng)
++ Discussion of papers and Q&A
 + Discussion of research ideas
+  
+#### Week 11 (Apr 7)
++ Group work
 
 #### Week 12 (Apr 14)
-+ [Tutorials on explainable AI](Tutorials/Project%203%20-%20Explainable%20AI.pdf) (Zheng)
-+ Q&A on research ideas (McKinley)
++ Group work 
 
-#### Week 13 (Apr 28)
-+ Q&A
+#### Week 13 (Apr 21)
++ [Tutorials on explainable AI](Tutorials/Project%203%20-%20Explainable%20AI.pdf) (Zheng)
++ + Group work 
 
 #### Week 14 (Apr 28)
-+ Project 3 submission and presentations
++ Project 3 presentations
 
 ##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
