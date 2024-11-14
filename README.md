@@ -14,7 +14,7 @@ Material and links are being updated for 2025. Some links are for 2022; there wi
 + [Introduction to LEAP CPC](Tutorials/Lecture01-Introduction.pdf) (Zheng)
 + [Introduction to Earth Systems and Climate Change](Tutorials/Lecture01-Climate-Basics-sp2022.pdf) (McKinley)
 + [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes and Climate Change* starts
-	+ [A tutorial on Google Colab](https://www.youtube.com/watch?v=inN8seMm7UI)
+	+ [A tutorial on LEAP Pangeo]()
 + Team activities
 	+ Self introduction and a fun fact
 	+ [The LEAP crossword challenge](https://crosswordlabs.com/view/leap-2022-kick-off-puzzle-1)
