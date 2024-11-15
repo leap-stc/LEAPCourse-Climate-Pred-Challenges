@@ -1,5 +1,5 @@
 # LEAP Education
-## Climate Prediction Challenges
+## Climate Prediction Challenges with Machine Learning
 ### Spring 2025 ([Syllabus](CourseInfo/CPC-Spring2025-Syllabus.md))
 
 A project-based learning course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research.
