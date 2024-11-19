@@ -1,8 +1,8 @@
-# # Project 1: Exploring Association between Hurricane Tracks and Climate Change
+# # Project 1: Exploring Hurricane Tracks and Climate Change
 
 ### [Full Project Description](doc/Proj1_desc.md)
 
-Term: Spring 2022
+Term: Spring 2025
 
 + Team ##
 + Team members
