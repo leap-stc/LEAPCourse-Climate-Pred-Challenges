@@ -1,12 +1,12 @@
 ## LEAP Education 
-#### Spring 2022
+#### Spring 2025
 ### Climate Predication Challenges 
-### Project 1: Exploring Association bewteen Hurricane Tracks and Climate Change
+### Project 1: Exploring Hurricane Tracks and Climate Change
 ### --- A "*Data Story*" using Jupyter Notebook on Google Colab
 
 <img src="../figs/tracks-2020example.jpeg" width="400">
 
-Climate change has become one of the biggest threats to humanity. It becomes increasingly important for us to understand better [how climate change affects extreme weather such as hurricanes](https://www.gfdl.noaa.gov/global-warming-and-hurricanes/). It has been suggested that the changing climate may lead to warmer sea surface temperatures, sea level rises, and shifts of the areas affected by hurricanes, etc. Hurricanes, as both directly observed behaviors of the earth system and extreme weather that has substantial impacts on human lives and society, are, therefore, of great interest to climate scientists. 
+Climate change has become one of the biggest threats to humanity. It becomes increasingly important for us to understand better [how climate change affects extreme weather such as hurricanes](https://www.gfdl.noaa.gov/global-warming-and-hurricanes/). It is clear that anthropogenic forcing is warming Earth and this is leading to warmer sea surface temperatures, sea level rise, and shifts of the areas affected by hurricanes, etc. Hurricanes, as both directly observed behaviors of the earth system and extreme weather that has substantial impacts on human lives and society, are, therefore, of great interest to climate scientists. 
 
 The goal of this project is to look deeper into the patterns and characteristics of hurricane tracks from seasons that date back as far as 1850s and how they associate with climate forcing factors. Applying data mining, statistical analysis and visualization, students should derive interesting findings in this collection of hurricane tracks, search the climate research literature for potential hypotheses, identify other useful data sources, and write a "data story" that can be shared with a **general audience**. 
 
