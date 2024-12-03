@@ -2,9 +2,9 @@
 
 This tutorial will guide you step-by-step through the basics of using GitHub. You'll learn how to:
 1. Clone a repository to JupyterHub.
-2. Push and pull changes.
-3. Work with branches.
-4. Create your own repository.
+2. Create your own repository.
+3. Push and pull changes.
+4. Work with branches.
 
 ---
 
