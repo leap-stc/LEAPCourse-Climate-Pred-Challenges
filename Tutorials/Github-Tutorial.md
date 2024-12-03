@@ -17,7 +17,7 @@ This tutorial will guide you step-by-step through the basics of using GitHub. Yo
 
 ### Command:
 ```bash
-git clone https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges.git`
+git clone https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges.git
 ```
 
 - Alternatively, in JupyterHub:
