@@ -1,4 +1,4 @@
-# GitHub Beginner Tutorial: Clone, Push, Pull, Branch, and Create a Repository
+# GitHub Beginner Tutorial
 
 This tutorial will guide you step-by-step through the basics of using GitHub. You'll learn how to:
 1. Clone a repository to JupyterHub.
