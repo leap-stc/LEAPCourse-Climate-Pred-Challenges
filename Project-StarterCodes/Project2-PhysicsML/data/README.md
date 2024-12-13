@@ -19,8 +19,8 @@
 1. Place the copied files into the `data` folder in your project directory.
 2. Ensure the file structure looks like this:
 
-project_root/ 
-   ├── data/ 
-         ├── training_data_raw_time_index_49_149.nc 
-         ├── data_testing_4_paper.txt
-         ├── training_data_for_SF_hbl_gaps_filled.nc
+   project_root/
+   ├── data/
+   │   ├── training_data_raw_time_index_49_149.nc
+   │   ├── data_testing_4_paper.txt
+   │   ├── training_data_for_SF_hbl_gaps_filled.nc
