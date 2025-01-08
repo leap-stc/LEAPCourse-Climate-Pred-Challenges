@@ -10,8 +10,7 @@
 #### Course Information
 * Classes: 
 	* Tuesdays 4:10 PM-6:40 PM
-	* Room 417 Schermerhorn
-	* Classes during the first two weeks will be virtual, per University's COVID policy.
+	* Room 903 SSW (1255 Amsterdam Ave)
 * Instructors:
 	* Galen McKinley <mckinley@ldeo.columbia.edu> [(@galenmckinley)]((https://github.com/galenmckinley))
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
