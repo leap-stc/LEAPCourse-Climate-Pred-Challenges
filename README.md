@@ -74,7 +74,7 @@ Following the work of
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
-### Project cycle 3: Machine Learning with Sparse Data
+### Project cycle 3: Machine Learning to Extrapolate from Sparse Data
 
 Following the work of 
 * Gloege, L. et al. (2021) Quantifying errors in observationally-based estimates of ocean carbon sink variability, Global Biogeochem. Cycles [doi:10.1029/2020GB006788](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GB006788).  
