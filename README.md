@@ -1,94 +1,111 @@
-# LEAP Education
-## Climate Prediction Challenges with Machine Learning
+# Climate Prediction Challenges with Machine Learning
 ### Spring 2025 ([Syllabus](CourseInfo/CPC-Spring2025-Syllabus.md))
+#### A climate data science course from [LEAP STC](https://leap.columbia.edu)
 
 A project-based learning course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research.
 
-Material and links are being updated for 2025. Some links are for 2022; there will be some significant changes. 
-
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
-### Project cycle 1: Jupyter Notebook for Exploratory Data Analysis 
+### Project cycle 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
+
+Following the work of 
+* Nakamura et al. (2009). Classifying North Atlantic Tropical Cyclone Tracks by Mass Moments. Journal of Climate, 22(20), 5481–5494. [doi:10.1175/2009jcli2828.1](https://doi.org/10.1175/2009jcli2828.1)
+
 ([starter codes](Project-StarterCodes/Project1-EDAV))
-#### Week 1 (Jan 20)
-+ [Introduction to LEAP CPC](Tutorials/Lecture01-Introduction.pdf) (Zheng)
-+ [Introduction to Earth Systems and Climate Change](Tutorials/Lecture01-Climate-Basics-sp2022.pdf) (McKinley)
-+ [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes and Climate Change* starts
-	+ [A tutorial on LEAP Pangeo]()
+
+#### Week 1 (Jan 21)
++ [Introduction to LEAP CPC] (McKinley)
++ [Introduction to Earth Systems and Climate Change] (McKinley)
++ Tutorial on LEAP Pangeo
++ [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes, Climate, Clustering* starts
 + Team activities
-	+ Self introduction and a fun fact
-	+ [The LEAP crossword challenge](https://crosswordlabs.com/view/leap-2022-kick-off-puzzle-1)
-	+ Find a time to review and discuss project 1 materials as a group
+	+ Introduction and a fun fact
+	+ Review and discuss project 1 materials as a group
 
-#### Week 2 (Jan 27)
-+ Tutorial on EDAV (Zheng)
-+ [A deep dive into Project 1](Tutorials/Lecture02-A-Deep-Dive-into-the-Hurricane-Paper.pdf)
-+ [Project 1 starter codes](Project-StarterCodes/Project1-EDAV/lib/Project1-Starter.ipynb) (Jiaxu Li)
+
+#### Week 2 (Jan 28)
++ [A deep dive into Project 1] (McKinley)
++ [Project 1 starter code review](Project-StarterCodes/Project1-EDAV) (TA Xinyi Ke)
++ Discussion / Q&A
++ Round robin - teams share project plans
+
+#### Week 3 (Feb 4)
++ Presentation and submission instruction 
 + Discussion and Q&A
 
-#### Week 3 (Feb 3)
-+ Presentation and submission instruction (Zheng)
-+ Team lightning shares
-+ Discussion and Q&A
-
-#### Week 4 (Feb 10)
+#### Week 4 (Feb 11)
 + Project 1 presentations
-
++ Discussion and Q&A
+  
 ----
-##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
+##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
 
 ### Project cycle 2: Parameterizing Earth System Models with Machine Learning
 
-Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks. Journal of Advances in Modeling Earth Systems, 15(10). [doi:10.1029/2023ms003890](https://doi.org/10.1029/2023ms003890)
+Following the work of 
+* Sane, A. et al. (2023). Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks. Journal of Advances in Modeling Earth Systems, 15(10). [doi:10.1029/2023ms003890](https://doi.org/10.1029/2023ms003890)
 
 ([starter codes])
 
-#### Week 5 (Feb 17)
+#### Week 5 (Feb 18)
 + [Project 2] starts.
-+ Introduction to Project 2 (McKinley)
-+ [Tutorial] [The challenge of parameterization] (McKinley)
++ Introduction to Project 2 and the challenge of parameterization (McKinley)
++ Tutorial on neural networks (Zheng)
 + Project 2 [starter codes]
 + Discussion and Q&A
 
-#### Week 6 (Feb 24)
+#### Week 6 (Feb 25)
 + [Tutorial] [Ocean mixing] (McKinley)
-+ Brainstorming, Discussion and Q&A
-
-#### Week 7 (Mar 3)
-+ Visit by study lead author Dr. Sane
 + Discussion and Q&A
++ Round robin - teams share project plans
+  
+#### Week 7 (Mar 4)
++ Visit by study lead author Dr. Sane
 + Group work
++ Discussion and Q&A
 
-#### Week 8 (Mar 10)
+#### Week 8 (Mar 11)
 + Group work
-
-#### Week 9 (Mar 24)
++ Discussion and Q&A
+  
+#### Week 9 (Mar 25)
 + Project 2 presentations
++ Discussion and Q&A
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
-### Project cycle 3: Machine Learning with Sparse Data
-([starter codes](Project-StarterCodes/Project3-PredModel))
+### Project cycle 3: Machine Learning to Extrapolate from Sparse Data
 
-#### Week 10 (Mar 31)
-+ [Project 3](Project-StarterCodes/Project3-PredModel) starts.
-+ [Climate Science Tutorial on "Air-Sea Flux of CO2"](Tutorials/Project3_Science_McKinley_22March2022.pdf) (McKinley)
+Following the work of 
+* Gloege, L. et al. (2021) Quantifying errors in observationally-based estimates of ocean carbon sink variability, Global Biogeochem. Cycles [doi:10.1029/2020GB006788](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GB006788).  
+* Heimdal, T.H. and G.A. McKinley (2024) Using observing system simulation experiments to assess impacts of observational uncertainties in surface ocean pCO2 machine learning reconstructions, Scientific Rep.[doi:10.1038/s41598-024-70617-x.](https://link.springer.com/article/10.1038/s41598-024-70617-x)
+* Heimdal, et al. (2024) Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling, Biogeosciences [doi:10.5194/bg-21-2159-2024](https://bg.copernicus.org/articles/21/2159/2024/).
+* and other papers from the [McKinley group](https://galenmckinley.github.io/publications/)
+
+([starter codes])
+
+#### Week 10 (April 1)
++ [Project 3] starts.
++ [Science Tutorial on "Air-Sea Flux of CO2"] (McKinley)
 + Review of starter codes
 + Discussion and Q&A
  
-#### Week 11 (Apr 7)
-+ [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3-Trees.pdf) (Zheng)
-+ Discussion of papers and Q&A
-+ Discussion of research ideas
+#### Week 11 (Apr 8)
++ [Tutorial on decision tree, random forests and xgboost] (Zheng)
++ Discussion and Q&A
++ Round robin - teams share project plans
   
-#### Week 12 (Apr 14)
-+ Group work 
+#### Week 12 (Apr 15)
++ Group work
++ Discussion and Q&A 
 
-#### Week 13 (Apr 21)
-+ [Tutorials on explainable AI](Tutorials/Project%203%20-%20Explainable%20AI.pdf) (Zheng)
-+ Group work 
+#### Week 13 (Apr 22)
++ Group work
++ Discussion and Q&A 
 
-#### Week 14 (Apr 28)
+#### Week 14 (Apr 29)
 + Project 3 presentations
-
-##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
++ Discussion and Q&A
++ Celebrate a great semester!
+  
+##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
