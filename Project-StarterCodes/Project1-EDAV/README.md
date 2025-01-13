@@ -1,4 +1,5 @@
 # # Project 1: Hurricanes, Climate and Clustering
+Please complete this with descriptive information for your group's project.
 
 ### [Project Assignment](doc/Proj1_desc.md)
 
