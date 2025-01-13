@@ -13,7 +13,7 @@ Material and links are being updated for 2025. Some links are for 2022; there wi
 #### Week 1 (Jan 21)
 + [Introduction to LEAP CPC](Tutorials/Lecture01-Introduction.pdf) (McKinley)
 + [Introduction to Earth Systems and Climate Change](Tutorials/Lecture01-Climate-Basics-sp2022.pdf) (McKinley)
-+ [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes and Climate* starts
++ [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes, Climate, Clustering* starts
 	+ [A tutorial on LEAP Pangeo]()
 + Team activities
 	+ Introduction and a fun fact
