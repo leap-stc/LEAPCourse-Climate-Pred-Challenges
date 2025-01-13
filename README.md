@@ -49,8 +49,8 @@ Following the work of
 
 #### Week 5 (Feb 18)
 + [Project 2] starts.
-+ Introduction to Project 2 (McKinley)
-+ [Tutorial] [The challenge of parameterization] (McKinley)
++ Introduction to Project 2 and the challenge of parameterization (McKinley)
++ Tutorial on neural networks (Zheng)
 + Project 2 [starter codes]
 + Discussion and Q&A
 
