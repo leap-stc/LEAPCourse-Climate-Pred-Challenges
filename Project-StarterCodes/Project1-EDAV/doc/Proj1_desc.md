@@ -58,7 +58,6 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 * [xarray](https://xarray.pydata.org/en/stable/), especially, notebook [examples](https://xarray.pydata.org/en/stable/gallery.html).
 * [matplotlib](https://matplotlib.org/): visualization with Python
 * [Pandas](https://pandas.pydata.org/): data analysis with Python
-* [Charts in Colab](https://colab.research.google.com/notebooks/charts.ipynb)
 
 ##### Project tools
 
