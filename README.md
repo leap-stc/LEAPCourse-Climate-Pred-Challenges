@@ -25,7 +25,7 @@ Following the work of
 
 #### Week 2 (Jan 28)
 + [A deep dive into Project 1] (McKinley)
-+ [Project 1 starter code review](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) (TA Xinyi Ke)
++ [Project 1 starter code review](Project-StarterCodes/Project1-EDAV) (TA Xinyi Ke)
 + Discussion / Q&A
 + Round robin - teams share project plans
 
