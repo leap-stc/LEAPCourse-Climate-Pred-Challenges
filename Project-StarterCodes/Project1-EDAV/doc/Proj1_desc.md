@@ -33,12 +33,8 @@ To start, everyone,
 
 The team leader of each team should
 
-+ create new github repository to share code across the team.
-  
-This folder can be used to share notes and codes.
-+ share project 1 folder with all team members.
-	+ Team members should all create a shortcut to this shared project folder in their own folder for LEAP CPC.
-+ go to "File/Save A Copy in Drive/" (upper left) and save a copy for your team in the project 1 folder that was just created.
++ create new Github repository to share code across the team
++ discuss file sharing with your team to make sure processes are clear
 
 Final product of this project is a notebook that the team produces together, which they will present to the class on Feburary 11th, 2025. 
  
