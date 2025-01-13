@@ -8,7 +8,7 @@ Material and links are being updated for 2025. Some links are for 2022; there wi
 
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
-### Project cycle 1: Hurricane Clustering and Exploratory Data Analysis and Visualization
+### Project cycle 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
 ([starter codes](Project-StarterCodes/Project1-EDAV))
 #### Week 1 (Jan 21)
 + [Introduction to LEAP CPC](Tutorials/Lecture01-Introduction.pdf) (McKinley)
