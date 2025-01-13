@@ -62,7 +62,7 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 
 ##### Project tools
 
-* A Github tutorial 
+* A [Github tutorial for this course](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/Tutorials/Github-Tutorial.md)
 * A brief [guide](http://rogerdudler.github.io/git-guide/) to git.
 * [GitHub documentation](https://guides.github.com/introduction/getting-your-project-on-github/)
 * [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
