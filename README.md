@@ -14,8 +14,8 @@ Following the work of
 ([starter codes](Project-StarterCodes/Project1-EDAV))
 
 #### Week 1 (Jan 21)
-+ [Introduction to LEAP CPC](Tutorials/Lecture01-Introduction.pdf) (McKinley)
-+ [Introduction to Earth Systems and Climate Change](Tutorials/Lecture01-Climate-Basics-sp2022.pdf) (McKinley)
++ [Introduction to LEAP CPC] (McKinley)
++ [Introduction to Earth Systems and Climate Change] (McKinley)
 + Tutorial on LEAP Pangeo
 + [Project 1 description](Project-StarterCodes/Project1-EDAV/doc/Proj1_desc.md) *Hurricanes, Climate, Clustering* starts
 + Team activities
@@ -24,8 +24,8 @@ Following the work of
 
 
 #### Week 2 (Jan 28)
-+ [A deep dive into Project 1](Tutorials/Lecture02-A-Deep-Dive-into-the-Hurricane-Paper.pdf)
-+ [Project 1 starter code review](Project-StarterCodes/Project1-EDAV/lib/Project1-Starter.ipynb) (Xinyi Ke)
++ [A deep dive into Project 1] (McKinley)
++ [Project 1 starter code review](Project-StarterCodes/Project1-EDAV/lib/Project1-Starter.ipynb) (TA Xinyi Ke)
 + Discussion / Q&A
 + Round robin - teams share project plans
 
@@ -85,13 +85,13 @@ Following the work of
 ([starter codes])
 
 #### Week 10 (April 1)
-+ [Project 3](Project-StarterCodes/Project3-PredModel) starts.
-+ [Climate Science Tutorial on "Air-Sea Flux of CO2"](Tutorials/Project3_Science_McKinley_22March2022.pdf) (McKinley)
++ [Project 3] starts.
++ [Science Tutorial on "Air-Sea Flux of CO2"] (McKinley)
 + Review of starter codes
 + Discussion and Q&A
  
 #### Week 11 (Apr 8)
-+ [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3-Trees.pdf) (Zheng)
++ [Tutorial on decision tree, random forests and xgboost] (Zheng)
 + Discussion and Q&A
 + Round robin - teams share project plans
   
