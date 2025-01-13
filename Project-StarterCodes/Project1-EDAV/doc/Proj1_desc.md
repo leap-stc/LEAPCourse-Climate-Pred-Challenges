@@ -54,9 +54,8 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 
 ### Useful resources
 + [A good "data story"](https://drhagen.com/blog/the-missing-11th-of-the-month/)
-+ [Summary of the 2024 Hurricane season](https://www.noaa.gov/news-release/atlantic-hurricane-season-races-to-finish-within-range-of-predicted-number-of-named-storms) by NOAA.
   
-##### Useful Python pakcages
+##### Useful Python packages
 * [xarray](https://xarray.pydata.org/en/stable/), especially, notebook [examples](https://xarray.pydata.org/en/stable/gallery.html).
 * [matplotlib](https://matplotlib.org/): visualization with Python
 * [Pandas](https://pandas.pydata.org/): data analysis with Python
@@ -69,11 +68,12 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 * [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ##### More on hurricanes
++ [Summary of the 2024 Hurricane season](https://www.noaa.gov/news-release/atlantic-hurricane-season-races-to-finish-within-range-of-predicted-number-of-named-storms) by NOAA.
 + [How you could visualize hurricanes](https://www.storytellingwithdata.com/blog/2017/10/1/how-youd-visualize-hurricanes) by Storytelling with Data.
 + [Why Past Hurricane Seasons Don’t Tell Us Much About The Future](https://fivethirtyeight.com/features/why-past-hurricane-seasons-dont-tell-us-much-about-the-future/) by Five Thirty Eight
 
 
-##### Tutorials
+### Tutorials to be provided
 
 For this project, Professor McKinley and the TA Xinyi Ke will give **tutorials** and give comments on:
 
