@@ -9,7 +9,7 @@ A project-based learning course where teams of climate science and data science 
 ### Project cycle 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
 
 Following the work of 
-Nakamura et al. (2009). Classifying North Atlantic Tropical Cyclone Tracks by Mass Moments. Journal of Climate, 22(20), 5481–5494. [doi:10.1175/2009jcli2828.1](https://doi.org/10.1175/2009jcli2828.1)
+* Nakamura et al. (2009). Classifying North Atlantic Tropical Cyclone Tracks by Mass Moments. Journal of Climate, 22(20), 5481–5494. [doi:10.1175/2009jcli2828.1](https://doi.org/10.1175/2009jcli2828.1)
 
 ([starter codes](Project-StarterCodes/Project1-EDAV))
 
@@ -42,7 +42,8 @@ Nakamura et al. (2009). Classifying North Atlantic Tropical Cyclone Tracks by Ma
 
 ### Project cycle 2: Parameterizing Earth System Models with Machine Learning
 
-Following the work of Sane, A. et al. (2023). Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks. Journal of Advances in Modeling Earth Systems, 15(10). [doi:10.1029/2023ms003890](https://doi.org/10.1029/2023ms003890)
+Following the work of 
+* Sane, A. et al. (2023). Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks. Journal of Advances in Modeling Earth Systems, 15(10). [doi:10.1029/2023ms003890](https://doi.org/10.1029/2023ms003890)
 
 ([starter codes])
 
