@@ -22,12 +22,12 @@ Material and links are being updated for 2025. Some links are for 2022; there wi
 
 #### Week 2 (Jan 28)
 + [A deep dive into Project 1](Tutorials/Lecture02-A-Deep-Dive-into-the-Hurricane-Paper.pdf)
-+ [Project 1 starter codes](Project-StarterCodes/Project1-EDAV/lib/Project1-Starter.ipynb) (Xinyi Ke)
-+ Discussion and Q&A
++ [Project 1 starter code review](Project-StarterCodes/Project1-EDAV/lib/Project1-Starter.ipynb) (Xinyi Ke)
++ Discussion / Q&A
++ Round robin - teams share project plans
 
 #### Week 3 (Feb 4)
 + Presentation and submission instruction 
-+ Teams share ideas for projects
 + Discussion and Q&A
 
 #### Week 4 (Feb 11)
