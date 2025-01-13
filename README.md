@@ -81,7 +81,7 @@ Following the work of
 * Heimdal, et al. (2024) Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling, Biogeosciences [doi:10.5194/bg-21-2159-2024](https://bg.copernicus.org/articles/21/2159/2024/).
 * and other papers from the [McKinley group](https://galenmckinley.github.io/publications/)
 
-([starter codes](Project-StarterCodes/Project3-PredModel))
+([starter codes])
 
 #### Week 10 (April 1)
 + [Project 3](Project-StarterCodes/Project3-PredModel) starts.
