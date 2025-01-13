@@ -33,7 +33,7 @@ Material and links are being updated for 2025. Some links are for 2022; there wi
 #### Week 4 (Feb 11)
 + Project 1 presentations
 + Discussion and Q&A
-+ 
+  
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
 
@@ -52,18 +52,21 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 
 #### Week 6 (Feb 25)
 + [Tutorial] [Ocean mixing] (McKinley)
-+ Brainstorming, Discussion and Q&A
-
++ Discussion and Q&A
++ Round robin - teams share project plans
+  
 #### Week 7 (Mar 4)
 + Visit by study lead author Dr. Sane
-+ Discussion and Q&A
 + Group work
++ Discussion and Q&A
 
 #### Week 8 (Mar 11)
 + Group work
-
++ Discussion and Q&A
+  
 #### Week 9 (Mar 25)
 + Project 2 presentations
++ Discussion and Q&A
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
@@ -78,16 +81,20 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
  
 #### Week 11 (Apr 8)
 + [Tutorial on decision tree, random forests and xgboost](Tutorials/Project3-Trees.pdf) (Zheng)
-+ Discussion of papers and Q&A
-+ Discussion of research ideas
++ Discussion and Q&A
++ Round robin - teams share project plans
   
 #### Week 12 (Apr 15)
-+ Group work 
++ Group work
++ Discussion and Q&A 
 
 #### Week 13 (Apr 22)
-+ Group work 
++ Group work
++ Discussion and Q&A 
 
 #### Week 14 (Apr 29)
 + Project 3 presentations
-
-##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
++ Discussion and Q&A
++ Celebrate a great semester!
+  
+##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
