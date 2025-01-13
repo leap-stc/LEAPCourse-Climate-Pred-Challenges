@@ -53,7 +53,9 @@ You should produce a Jupyter notebook, where you should write a story related to
 Your story should NOT be a laundry list of all analyses you have tried on the data or how you solved a technical issue in your analysis, no matter how fascinating that might be. 
 
 ### Useful resources
-
++ [A good "data story"](https://drhagen.com/blog/the-missing-11th-of-the-month/)
++ [Summary of the 2024 Hurricane season](https://www.noaa.gov/news-release/atlantic-hurricane-season-races-to-finish-within-range-of-predicted-number-of-named-storms) by NOAA.
+  
 ##### Useful Python pakcages
 * [xarray](https://xarray.pydata.org/en/stable/), especially, notebook [examples](https://xarray.pydata.org/en/stable/gallery.html).
 * [matplotlib](https://matplotlib.org/): visualization with Python
@@ -66,9 +68,7 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 * [GitHub documentation](https://guides.github.com/introduction/getting-your-project-on-github/)
 * [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
-##### Examples
-+ [A good "data story"](https://drhagen.com/blog/the-missing-11th-of-the-month/)
-+ [Summary of the 2024 Hurricane season](https://www.noaa.gov/news-release/atlantic-hurricane-season-races-to-finish-within-range-of-predicted-number-of-named-storms) by NOAA.
+##### More on hurricanes
 + [How you could visualize hurricanes](https://www.storytellingwithdata.com/blog/2017/10/1/how-youd-visualize-hurricanes) by Storytelling with Data.
 + [Why Past Hurricane Seasons Don’t Tell Us Much About The Future](https://fivethirtyeight.com/features/why-past-hurricane-seasons-dont-tell-us-much-about-the-future/) by Five Thirty Eight
 
