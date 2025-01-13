@@ -1,7 +1,7 @@
 ## LEAP Education 
 #### Spring 2025
 ### Climate Predication Challenges 
-### Project 1: Exploring Hurricane Tracks and Climate Change
+### Project 1: Hurricanes, Climate and Clustering
 ### --- A "*Data Story*" using Jupyter Notebook on Google Colab
 
 <img src="../figs/tracks-2020example.jpeg" width="400">
