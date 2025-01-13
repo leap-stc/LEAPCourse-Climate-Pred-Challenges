@@ -7,10 +7,11 @@ A project-based learning course where teams of climate science and data science 
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
 ### Project cycle 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
-([starter codes](Project-StarterCodes/Project1-EDAV))
 
 Following the work of 
 Nakamura et al. (2009). Classifying North Atlantic Tropical Cyclone Tracks by Mass Moments. Journal of Climate, 22(20), 5481–5494. [doi:10.1175/2009jcli2828.1](https://doi.org/10.1175/2009jcli2828.1)
+
+([starter codes](Project-StarterCodes/Project1-EDAV))
 
 #### Week 1 (Jan 21)
 + [Introduction to LEAP CPC](Tutorials/Lecture01-Introduction.pdf) (McKinley)
@@ -72,13 +73,14 @@ Following the work of Sane, A. et al. (2023). Parameterizing Vertical Mixing Coe
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
 
+### Project cycle 3: Machine Learning with Sparse Data
+
 Following the work of 
 * Gloege, L. et al. (2021) Quantifying errors in observationally-based estimates of ocean carbon sink variability, Global Biogeochem. Cycles [doi:10.1029/2020GB006788](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GB006788).  
 * Heimdal, T.H. and G.A. McKinley (2024) Using observing system simulation experiments to assess impacts of observational uncertainties in surface ocean pCO2 machine learning reconstructions, Scientific Rep.[doi:10.1038/s41598-024-70617-x.](https://link.springer.com/article/10.1038/s41598-024-70617-x)
 * Heimdal, et al. (2024) Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling, Biogeosciences [doi:10.5194/bg-21-2159-2024](https://bg.copernicus.org/articles/21/2159/2024/).
 * and other papers from the [McKinley group](https://galenmckinley.github.io/publications/)
 
-### Project cycle 3: Machine Learning with Sparse Data
 ([starter codes](Project-StarterCodes/Project3-PredModel))
 
 #### Week 10 (April 1)
