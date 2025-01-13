@@ -73,7 +73,7 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 + [A good "data story"](https://drhagen.com/blog/the-missing-11th-of-the-month/)
 + [How you would visualize hurricane](https://www.storytellingwithdata.com/blog/2017/10/1/how-youd-visualize-hurricanes) by Storytelling with Data.
 + [Why Past Hurricane Seasons Don’t Tell Us Much About The Future](https://fivethirtyeight.com/features/why-past-hurricane-seasons-dont-tell-us-much-about-the-future/) by Five Thirty Eight
-+ [Hurricane season ends historic as predicted by experts back in April](https://www.cnn.com/2020/11/30/weather/record-breaking-atlantic-hurricane-season-wrap-up/index.html) by CNN
++ [NOAA summary for the 2024 Hurriane season](https://www.noaa.gov/news-release/atlantic-hurricane-season-races-to-finish-within-range-of-predicted-number-of-named-storms).
 
 ##### Tutorials
 
