@@ -37,7 +37,7 @@ A project-based learning course where teams of climate science and data science 
 
 ### Project cycle 2: Parameterizing Earth System Models with Machine Learning
 
-Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks. Journal of Advances in Modeling Earth Systems, 15(10). [doi:10.1029/2023ms003890](https://doi.org/10.1029/2023ms003890)
+Follwing the work of Sane, A. et al. (2023). Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks. Journal of Advances in Modeling Earth Systems, 15(10). [doi:10.1029/2023ms003890](https://doi.org/10.1029/2023ms003890)
 
 ([starter codes])
 
@@ -67,6 +67,12 @@ Follwing the work of Sane, A., Reichl, B. G., Adcroft, A., & Zanna, L. (2023). P
 + Discussion and Q&A
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) 
+
+Follwing the work of 
+* Gloege, L. et al. (2021) Quantifying errors in observationally-based estimates of ocean carbon sink variability, Global Biogeochem. Cycles [doi:10.1029/2020GB006788](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GB006788).  
+* Heimdal, T.H. and G.A. McKinley (2024) Using observing system simulation experiments to assess impacts of observational uncertainties in surface ocean pCO2 machine learning reconstructions, Scientific Rep.[doi:10.1038/s41598-024-70617-x.](https://link.springer.com/article/10.1038/s41598-024-70617-x)
+* Heimdal, et al. (2024) Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling, Biogeosciences [doi:10.5194/bg-21-2159-2024](https://bg.copernicus.org/articles/21/2159/2024/).
+* and other papers from the [McKinley group](https://galenmckinley.github.io/publications/)
 
 ### Project cycle 3: Machine Learning with Sparse Data
 ([starter codes](Project-StarterCodes/Project3-PredModel))
