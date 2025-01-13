@@ -61,8 +61,10 @@ Your story should NOT be a laundry list of all analyses you have tried on the da
 * [Charts in Colab](https://colab.research.google.com/notebooks/charts.ipynb)
 
 ##### Project tools
+
+* A Github tutorial 
 * A brief [guide](http://rogerdudler.github.io/git-guide/) to git.
-* Putting your project on [GitHub](https://guides.github.com/introduction/getting-your-project-on-github/).
+* [GitHub documentation](https://guides.github.com/introduction/getting-your-project-on-github/)
 * [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ##### Examples
