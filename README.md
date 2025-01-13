@@ -32,9 +32,10 @@ Material and links are being updated for 2025. Some links are for 2022; there wi
 
 #### Week 4 (Feb 11)
 + Project 1 presentations
-
++ Discussion and Q&A
++ 
 ----
-##### Shortcuts: Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
+##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling)
 
 ### Project cycle 2: Parameterizing Earth System Models with Machine Learning
 
