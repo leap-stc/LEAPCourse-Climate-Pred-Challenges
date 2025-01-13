@@ -1,6 +1,6 @@
-# # Project 1: Exploring Hurricane Tracks and Climate Change
+# # Project 1: Hurricanes, Climate and Clustering
 
-### [Full Project Description](doc/Proj1_desc.md)
+### [Project Assignment](doc/Proj1_desc.md)
 
 Term: Spring 2025
 
@@ -13,7 +13,7 @@ Term: Spring 2025
 
 + Project summary: In this project, ...
 + 	
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: ([more information and examples](doc/a_note_on_contributions.md))  
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
 
