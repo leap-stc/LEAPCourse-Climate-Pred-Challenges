@@ -2,7 +2,7 @@
 #### Spring 2025
 ### Climate Predication Challenges 
 ### Project 1: Hurricanes, Climate and Clustering
-### --- A "*Data Story*" using Jupyter Notebook on Google Colab
+### --- A "*Data Story*" using Jupyter Notebook on LEAP Pangeo
 
 <img src="../figs/tracks-2020example.jpeg" width="400">
 
