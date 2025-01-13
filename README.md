@@ -4,8 +4,6 @@
 
 A project-based learning course where teams of climate science and data science students collaborate to create machine learning predictive models for challenges inspired by LEAP's research.
 
-Material and links are being updated for 2025. Some links are for 2022; there will be some significant changes. 
-
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
 ### Project cycle 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
