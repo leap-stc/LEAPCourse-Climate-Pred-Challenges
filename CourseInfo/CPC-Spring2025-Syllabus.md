@@ -10,14 +10,15 @@
 #### Course Information
 * Classes: 
 	* Tuesdays 4:10 PM-6:40 PM
-	* Room 417 Schermerhorn
+	* Room 903 SSW (1255 Amsterdam Ave)
 * Instructors:
 	* [Galen McKinley](https://galenmckinley.github.io) <mckinley@ldeo.columbia.edu> [(@galenmckinley)](https://github.com/galenmckinley)
 		* Professor of Earth and Environmental Sciences at Columbia and [LDEO](https://www.ldeo.columbia.edu/)
-		* Office hours: TBD	
+		* Office hours: by request
 	* [Tian Zheng](http://www.stat.columbia.edu/~tzheng/) <tian.zheng@columbia.edu> [(@tz33cu)](https://github.com/tz33cu). 
 		* Professor of [Statistics at Columbia](http://stat.columbia.edu) and LEAP Deputy Director
-		* Office hours: TBD
+	* TA Xinyi Ke <xk2161@columbia.edu>
+   		* Office hours: by request
 
 * Course websites (all accessible via [courseworks](https://courseworks2.columbia.edu/courses/150725) or [GitHub](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges)).			
 	* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
