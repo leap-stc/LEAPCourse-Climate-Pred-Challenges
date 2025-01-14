@@ -82,12 +82,12 @@ Individual Participation Evaluation
 +	Assigned online discussions will be graded for completion. 
 +	These components will combine to determine “individual participation”,  20% of your final grade. 
 +	Participation will be graded using the following scheme.
-	A (1.8-2): leading contributor: contribution substantially to every project stage and in all discussions.
-	A- (1.5-1.8): major contributor:  contribution substantially in two project stages and in some discussions.
-	B+ (1.2-1.5): average participation: contribution substantially in one project stage and in some discussions.
-	B (1-1.2 or lower): below-average participation.
-Participation in Project Peer Review 
-*	In each project cycle, all students will review one or two projects submitted by their peers. Peer reviewers’ grades will be for completion of the review. 
+	+ A (1.8-2): leading contributor: contribution substantially to every project stage and in all discussions.
+	+ A- (1.5-1.8): major contributor:  contribution substantially in two project stages and in some discussions.
+	+ B+ (1.2-1.5): average participation: contribution substantially in one project stage and in some discussions.
+	+ B (1-1.2 or lower): below-average participation.
+* Participation in Project Peer Review
+  + In each project cycle, all students will review one or two projects submitted by their peers. Peer reviewers’ grades will be for completion of the review. 
 
 
 #### Communication
