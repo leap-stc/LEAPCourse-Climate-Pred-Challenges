@@ -70,23 +70,24 @@ Below is a tentative schedule we will follow.
 
 #### Evaluation
 
-Students' performance will be evaluated based on 
+Evaluation
+Students' performance will be evaluated based on
+*	[75%] Project products (instructor-reviewed and peer-reviewed, average of 3 projects). Each project will have grading rubrics to be used by the instructor and peer reviewers.
+*	[20%] Individual participation (project contribution, instructors' observations, and online discussion).
+*	[5%] Participation in Peer Review of projects submitted by your peers. 
+Individual Participation Evaluation
++	“Project contribution”: Each project submission must include a contribution statement that explicitly communicates the contributions from each group member. In addition, each team member will provide structured feedback on the contributions of each of their teammates. 
++	Instructors will assess in-class participation. 
++	Assigned online discussions will be graded for completion. 
++	These components will combine to determine “individual participation”,  20% of your final grade. 
++	Participation will be graded using the following scheme.
+	A (1.8-2): leading contributor: contribution substantially to every project stage and in all discussions.
+	A- (1.5-1.8): major contributor:  contribution substantially in two project stages and in some discussions.
+	B+ (1.2-1.5): average participation: contribution substantially in one project stage and in some discussions.
+	B (1-1.2 or lower): below-average participation.
+Participation in Project Peer Review 
+*	In each project cycle, all students will review one or two projects submitted by their peers. Peer reviewers’ grades will be for completion of the review. 
 
-* [85%] Project products (instructor-reviewed and/or peer-reviewed, averaged over 3 projects). Each project description will have explicit grading rubrics. 
-* [15%] Individual participation (based on individual tasks and instructors' observation).
-
-	##### A note on participation evaluation. 
-	In addition to individual tasks such as peer reviews, for each project, we will enforce formal evaluation of participation as follows. 
-	
-	* Each project needs to have clearly communicated collaboration and task assignments, as part of a contribution statement for each project submission. 
-	* Students should participate actively in class discussion and online discussion. 
-	* We will give participation score for each project cycle, the average of which will contribute to 15% of your final grade. The participation will be graded on the following curve. 
-	
-		* A (1.8-2): project leader, major contributor who contribute substantially in every stage of the project and class discussions. 
-		* A- (1.5-1.8): major contributor who contributed substantially to two stages of the project and some discussions. 
-		* B+ (1.2-1.5): average participation, participate in the discussion at every stage and contribute substentially in at least one stage of the project and some discussions. 
-		* B (1-1.2) or lower: below average performance.   
-	* This is to ensure a positive learning process for all of us.  
 
 #### Communication
 Project grades are managed in Courseworks. We will use the Courseworks discussion/announcement tools for our class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online. Emails related to learning and projects shall be redirected to our discussion board.
