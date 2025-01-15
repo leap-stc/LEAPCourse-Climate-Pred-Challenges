@@ -59,7 +59,7 @@ https://<your-username>:<your-token>@github.com/<owner>/<repository>.git
 3. Use the following command to clone the repository:
    ```bash
    git clone https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges.git
-  ```
+   ```
 
 
 
