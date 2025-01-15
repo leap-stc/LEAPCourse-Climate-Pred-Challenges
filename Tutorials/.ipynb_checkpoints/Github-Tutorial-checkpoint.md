@@ -223,8 +223,6 @@ This guide explains how to push code from your local repository to a GitHub repo
    ```bash
    git status
    ```
-
-
   If it’s not, initialize a Git repository:
 
   ```bash
