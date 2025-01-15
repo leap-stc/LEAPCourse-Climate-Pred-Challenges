@@ -218,16 +218,15 @@ The team leader can create a repository for the team and invite team members. Th
 This guide explains how to push code from your local repository to a GitHub repository and handle the main branch properly.
 
 #### Step 1: Ensure You Have a Git Repository
-1. Navigate to your project folder in the terminal.
-2. Check if the folder is already a Git repository:
-   ```bash
-   git status
-   ```
-  If it’s not, initialize a Git repository:
+Navigate to your project folder in the terminal. Check if the folder is already a Git repository:
+```bash
+git status
+```
+If it’s not, initialize a Git repository:
 
-  ```bash
-  git init
-  ```
+```bash
+git init
+```
 
 #### Step 2: Add Remote Repository
 If you haven’t already linked your GitHub repository, add it as a remote:
