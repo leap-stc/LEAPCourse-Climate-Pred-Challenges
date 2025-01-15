@@ -166,27 +166,31 @@ The team leader can create a repository for the team and invite team members. Th
    git add .
    git commit -m "Initial commit"
    git push -u origin main
+   ```
    
 ### Option 2: If You Already Have a Local Repository (e.g., Cloned from Another Repository, like what we did in section 1)
 
 1. **Check the current remote repository**:
    ```bash
    git remote -v
+   ```
 
 2. **Remove the link to the original repository:**
    ```bash
    git remote remove origin
 
 3. **Add the new repository as the remote:**
-
   ```bash
   git remote add origin https://github.com/your-username/New-Repository.git
+  ```
 
 4. **Verify the new remote:**
 
   ```bash
   git remote -v
   ```
+
+
   Ensure that the output shows the URL for new repository.
 
 
@@ -218,7 +222,8 @@ This guide explains how to push code from your local repository to a GitHub repo
 2. Check if the folder is already a Git repository:
    ```bash
    git status
-  ```
+   ```
+
 
   If it’s not, initialize a Git repository:
 
