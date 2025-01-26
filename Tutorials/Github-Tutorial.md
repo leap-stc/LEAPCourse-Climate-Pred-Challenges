@@ -108,7 +108,7 @@ The team leader can create a repository for the team and invite team members. Th
        git add .
        git commit -m "Initial commit"
        git push -u origin main
-      ```
+       ```
    
 - Case 2: If You Already Have a Local Repository (e.g., Cloned from Another Repository, like what we did in section 1)
     

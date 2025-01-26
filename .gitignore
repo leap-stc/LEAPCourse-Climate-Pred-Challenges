@@ -1,0 +1,6 @@
+# Ignore checkpoint-related files
+*.checkpoint
+*-checkpoint.ipynb
+*-checkpoint.*
+checkpoint/
+.ipynb_checkpoints/
