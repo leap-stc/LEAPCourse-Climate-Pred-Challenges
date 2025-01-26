@@ -108,10 +108,7 @@ The team leader can create a repository for the team and invite team members. Th
        git add .
        git commit -m "Initial commit"
        git push -u origin main
-<<<<<<< HEAD
-       ```
-=======
->>>>>>> 188a9a479bd7fe96a20755e98af5ae42d66f85e3
+
    
 - Case 2: If You Already Have a Local Repository (e.g., Cloned from Another Repository, like what we did in section 1)
     
@@ -322,18 +319,18 @@ This section summarizes a recommended workflow for using GitHub in a team settin
 
 ## 5. Unlink the Course Repository's Remote and Link to the Team's Repository
 - After cloning the course repository, unlink the course's remote repository:
-  ```bash
-  git remote remove origin
-  ```
+    ```bash
+    git remote remove origin
+    ```
 - Link the local repository to your team's remote repository:
-```bash
-git remote add origin https://github.com/your-team/team-repository.git
-```
+    ```bash
+    git remote add origin https://github.com/your-team/team-repository.git
+    ```
 
 - Verify the remote link:
-```bash
-git remote -v
-```
+    ```bash
+    git remote -v
+    ```
 
 ## 6. Run and Extend the Project in JupyterHub
 Each team member runs the project in JupyterHub, explores the codebase, and extends their work based on the project goals.
@@ -409,20 +406,22 @@ Below are two common scenarios: resolving a **merge conflict** and handling a **
 
 ## Example 1: Merge Conflict During Pull
 
-### Scenario:
 Two developers are working on the same file, `example.txt`. Both make changes to the same line without knowing about the other's changes.
 
 1. **Initial File**:
    ```text
    Hello World
+   ```
 
 2. **Developer A's Change**: Developer A updates the file and pushes it:
     ```text
     Hello GitHub
+    ```
 
 3. **Developer B's Change**: Without pulling the latest changes, Developer B updates the same file:
     ```text
     Hello Git
+    ```
 
 4. **The Conflict**: When Developer B tries to push their changes, Git rejects the push and provides the following error message:
     ```bash
@@ -430,7 +429,7 @@ Two developers are working on the same file, `example.txt`. Both make changes to
     hint: Updates were rejected because the remote contains work that you do not have locally. 
     hint: This is usually caused by another repository pushing to the same ref.
     hint: You may want to first integrate the remote changes (e.g., 'git pull ...') before pushing again.
-
+    ```
 
    Git requires Developer B to pull the latest changes from the remote repository before pushing. When they run git pull, Git identifies a conflict and marks it in example.txt:
    
@@ -440,6 +439,7 @@ Two developers are working on the same file, `example.txt`. Both make changes to
     =======
     Hello GitHub
     >>>>>>> origin/main
+    ```
 
 5. **Resolving the Conflict**: Developer B edits the `example.txt` file to keep the desired version, for example:
     ```text
@@ -451,25 +451,23 @@ Two developers are working on the same file, `example.txt`. Both make changes to
     git commit -m "Resolve merge conflict in example.txt"
     git push origin main
 
-> **Note**: If Developer B wants to **ignore the conflict** and overwrite the remote repository with their local changes, they can use a **force push**:
-    ```bash
-    git push origin main --force
-    ```
-    Force pushing will overwrite the remote branch, potentially discarding other developers' changes. This can cause data loss and disrupt teamwork. Use this option only when necessary and with caution. Communicate with your team to avoid conflicts and minimize the risk of overwriting others' work.
+**Note**: If Developer B wants to **ignore the conflict** and overwrite the remote repository with their local changes, they can use a **force push**:
+```bash
+git push origin main --force
+```
+Force pushing will overwrite the remote branch, potentially discarding other developers' changes. This can cause data loss and disrupt teamwork. Use this option only when necessary and with caution. Communicate with your team to avoid conflicts and minimize the risk of overwriting others' work.
 
 > **Note**: If two developers modify different parts of the same file, such as different lines, Git will automatically merge the changes without any conflict. A conflict only occurs when both developers edit the same part of the file, as Git cannot determine which change to keep.
 
 
 ## Example 2: File Move Conflict During Pull
 
-### Scenario:
 You move a file locally to a new location, but the file still exists in its original location on the remote repository. When you pull changes from the remote, will it treat this as a conflict?
 
 **No**, Git will not treat this as a conflict.
 
 **Key Points**:
 A pull operation only affects files in the remote repository that have changed between the last pull (or clone if this is the first pull) and the current pull.
-
 For local files (whether moved, modified, or untracked by Git), pull does not interact with them unless there is a direct conflict between the local and remote **changes**.
 
 **What Happens in This Case**:
