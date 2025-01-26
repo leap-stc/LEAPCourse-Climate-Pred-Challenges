@@ -61,7 +61,6 @@ https://<your-username>:<your-token>@github.com/<owner>/<repository>.git
    ```
 
 
----
 
 ### 2.1.2 Create a Repository
 The team leader can create a repository for the team and invite team members. This is convenient for collaboration and sharing project files.
@@ -109,7 +108,7 @@ The team leader can create a repository for the team and invite team members. Th
        git add .
        git commit -m "Initial commit"
        git push -u origin main
-   ```
+      ```
    
 - Case 2: If You Already Have a Local Repository (e.g., Cloned from Another Repository, like what we did in section 1)
     
@@ -128,7 +127,6 @@ The team leader can create a repository for the team and invite team members. Th
       ```
     
     4. **Verify the new remote:**
-    
       ```bash
       git remote -v
       ```
@@ -139,8 +137,6 @@ The team leader can create a repository for the team and invite team members. Th
 
 
 
-
----
 
 
 ### 2.1.3 Push Code to a GitHub Repository
@@ -186,10 +182,6 @@ git push -u origin main
 
 
 
-
-
-
----
 
 
 
@@ -239,8 +231,6 @@ For subsequent pushes:
 git push
 ```
 
----
-
 
 
 
@@ -270,7 +260,6 @@ branch-name: The name of the branch you want to pull changes from (e.g., main or
 2. Click **Clone Repository**.
 3. Paste the HTTPS link of the repository and confirm. The repository will be cloned into your current working directory.
 
----
 
 ### 2.2.2 Create a Repository
 1. Create a new repository on GitHub:
@@ -281,7 +270,6 @@ branch-name: The name of the branch you want to pull changes from (e.g., main or
    - Use **Commit** to stage and commit changes.
    - Use **Push** to upload the code to the remote repository.
 
----
 
 ### 2.2.3 Push Changes
 1. Stage and commit changes:
@@ -293,7 +281,6 @@ branch-name: The name of the branch you want to pull changes from (e.g., main or
 1. Pull updates:
    - Click **Pull** in the **Git** tab to fetch and merge changes from the remote repository.
 
----
 
 ### 2.2.5 Work with Branches
 #### Create and Switch Branches
@@ -335,13 +322,12 @@ This section summarizes a recommended workflow for using GitHub in a team settin
   ```bash
   git remote remove origin
   ```
-Link the local repository to your team's remote repository:
-
+- Link the local repository to your team's remote repository:
 ```bash
 git remote add origin https://github.com/your-team/team-repository.git
 ```
 
-Verify the remote link:
+- Verify the remote link:
 ```bash
 git remote -v
 ```
