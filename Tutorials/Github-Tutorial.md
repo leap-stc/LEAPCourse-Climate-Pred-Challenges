@@ -398,6 +398,85 @@ git push
 
 # 04. Resolving Conflicts and Common Git Issues
 
+Working with Git in collaborative projects can sometimes lead to conflicts or unexpected behaviors. These issues often arise when multiple people make changes to the same files or when local changes diverge from the remote repository. This section highlights common problems and provides simple examples to help you understand how to resolve them effectively.
+
+Below are two common scenarios: resolving a **merge conflict** and handling a **file move conflict**.
+
+
+
+## Example 1: Merge Conflict During Pull
+
+### Scenario:
+Two developers are working on the same file, `example.txt`. Both make changes to the same line without knowing about the other's changes.
+
+1. **Initial File**:
+   ```text
+   Hello World
+
+2. **Developer A's Change**: Developer A updates the file and pushes it:
+    ```text
+    Hello GitHub
+
+3. **Developer B's Change**: Without pulling the latest changes, Developer B updates the same file:
+    ```text
+    Hello Git
+
+4. **The Conflict**: When Developer B tries to push their changes, Git rejects the push and provides the following error message:
+    ```bash
+    error: failed to push some refs to 'origin/main'
+    hint: Updates were rejected because the remote contains work that you do not have locally. 
+    hint: This is usually caused by another repository pushing to the same ref.
+    hint: You may want to first integrate the remote changes (e.g., 'git pull ...') before pushing again.
+
+
+   Git requires Developer B to pull the latest changes from the remote repository before pushing. When they run git pull, Git identifies a conflict and marks it in example.txt:
+   
+    ```text
+    <<<<<<< HEAD
+    Hello Git
+    =======
+    Hello GitHub
+    >>>>>>> origin/main
+
+5. **Resolving the Conflict**: Developer B edits the `example.txt` file to keep the desired version, for example:
+    ```text
+    Hello Git and GitHub
+
+6. **Final Steps**: Developer B stages the resolved file and completes the merge:
+    ```bash
+    git add example.txt
+    git commit -m "Resolve merge conflict in example.txt"
+    git push origin main
+
+> **Note**: If Developer B wants to **ignore the conflict** and overwrite the remote repository with their local changes, they can use a **force push**:
+    ```bash
+    git push origin main --force
+    ```
+    Force pushing will overwrite the remote branch, potentially discarding other developers' changes. This can cause data loss and disrupt teamwork. Use this option only when necessary and with caution. Communicate with your team to avoid conflicts and minimize the risk of overwriting others' work.
+
+> **Note**: If two developers modify different parts of the same file, such as different lines, Git will automatically merge the changes without any conflict. A conflict only occurs when both developers edit the same part of the file, as Git cannot determine which change to keep.
+
+
+## Example 2: File Move Conflict During Pull
+
+### Scenario:
+You move a file locally to a new location, but the file still exists in its original location on the remote repository. When you pull changes from the remote, will it treat this as a conflict?
+
+**No**, Git will not treat this as a conflict.
+
+**Key Points**:
+A pull operation only affects files in the remote repository that have changed between the last pull (or clone if this is the first pull) and the current pull.
+
+For local files (whether moved, modified, or untracked by Git), pull does not interact with them unless there is a direct conflict between the local and remote **changes**.
+
+**What Happens in This Case**:
+
+1. **If the file has changed in the remote repository**:
+Git will notice that the file exists in the remote repository but is missing in the corresponding local location. It will **redownload the file** to its original location in your working directory. This does not affect the file you moved locally, which will remain in its new location. Git treats the redownloaded file and the moved file as separate files.
+
+2. **If the file has not changed in the remote repository**:
+Git will **not redownload the file** or perform any operations on it. The file you moved locally will remain untouched, and no new file will appear in the original location.
+    
 
 
 
@@ -450,13 +529,9 @@ Pull the files from the remote repository, but only the specified folder will be
 ### Note: The parent folder structure leading to this subfolder will still be present, as Git includes the necessary hierarchy for the selected folder.
 
 
+---
 
-
-
-
-
-
-
+Practicing hands-on is essential for mastering any programming language, platform, or tool, and GitHub is no exception. There are countless operations, features, and potential issues that may arise when working with Git and GitHub, far more than we can cover in this tutorial. We encourage you to explore, search for solutions, and engage in discussions to deepen your understanding. If you encounter interesting challenges or gain insights through practice, feel free to share them with others or with the TA. Your contributions can help enrich this tutorial and benefit everyone in the learning process.
 
 
 
