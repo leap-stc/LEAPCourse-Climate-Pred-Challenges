@@ -1,4 +1,4 @@
-# Project 2 Dataset
+# Project 2 - Dataset
 
 Accessing the Dataset
 To ensure efficient data usage and minimize redundant storage, the LEAP Pangeo shared server provides centralized access to the dataset. Instead of downloading multiple copies, you can directly load the dataset from the shared server using the following URLs:

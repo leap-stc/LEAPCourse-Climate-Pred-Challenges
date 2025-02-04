@@ -168,4 +168,4 @@ def plot_n1_scores(cwd_output, hidds, lays, seeds, epochs=3000):
     # plt.savefig(os.path.join(cwd_output, 'n1scoredata/N1sweepscore.pdf'), format='pdf')
     plt.show()
     plt.close()
-    print("Plot saved successfully.")
+    # print("Plot saved successfully.")
