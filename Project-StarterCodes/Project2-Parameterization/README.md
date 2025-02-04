@@ -3,13 +3,13 @@
 This project reproduces and extends the analysis from Sane et al. (2023), "Parameterizing vertical mixing coefficients in the ocean surface boundary layer using neural networks." 
 The study explores the use of machine learning techniques to improve the parameterization of vertical mixing coefficients in the ocean surface boundary layer.
 
-# Project Assignment
+## Project Assignment
 
 Term: Spring 2025
 
 Team: ##
 
-# Team Members:
+## Team Members:
 
 Member 1
 
@@ -18,11 +18,7 @@ Member 2
 Member 3
 
 
-# Project Summary
-
-This project focuses on applying neural networks to model vertical mixing coefficients, leveraging outputs from the Generalized Ocean Turbulence Model (GOTM). The goal is to optimize the parameterization of ocean turbulence processes, which are crucial for climate and ocean modeling.
-
-# Folder Structure
+## Folder Structure
 
 ```bash
 Project2-Parameterization/
@@ -37,12 +33,15 @@ Project2-Parameterization/
 ├── README.md             # Project documentation
 ```
 
-# Contribution Guidelines
+## **Contribution statement**: ([more information and examples](doc/a_note_on_contributions.md))  
+
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz).
+
 GitHub Sharing: Recommended for collaborative coding and version control.
 
 We have prepared a GitHub Tutorial to assist with this process.
 
 If you encounter any issues, feel free to reach out.
 
-# References
+## References
 Sane et al. (2023), "Parameterizing vertical mixing coefficients in the ocean surface boundary layer using neural networks." Journal of Advances in Modeling Earth Systems, 15(10), e2023MS003890.

@@ -111,4 +111,4 @@ def performance_sigma_point(model, x, valid_x, y, valid_y, k_mean, k_std):
         k12 -= 1
 
     plt.tight_layout()
-    print("Plot saved as 'modelstats.pdf'")
+    # print("Plot saved as 'modelstats.pdf'")
