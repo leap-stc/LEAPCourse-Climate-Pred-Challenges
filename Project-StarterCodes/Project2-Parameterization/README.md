@@ -23,6 +23,10 @@ Project2-Parameterization/
 ├── README.md             # Project documentation
 ```
 
+## **Running this Notebook**:
+
+This notebook is designed for use on LEAP-Pangeo's GPU cluster (Pytorch option).
+
 ## **Contribution statement**: ([more information and examples](doc/a_note_on_contributions.md))  
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz).
