@@ -8,7 +8,11 @@
 + Xingyao Li
 
 ## Project Summary
-This project explores different approaches to clustering hurricane tracks in the North Atlantic and West Pacific basins. Building upon the methodology of Nakamura et al. (2009), we implement and compare various clustering algorithms including K-means, Gaussian Mixture Models, and Spectral Clustering. Our analysis examines how these different methods perform in identifying meaningful patterns in tropical cyclone behavior and briefly explores potential implications for climate change studies.
+Using historical storm data from the North Atlantic and West Pacific, our research applied different clustering methods to classify tropical cyclone tracks based on their movement patterns. By representing each storm’s trajectory using mass moments capturing its center of motion and how much it deviates, we tested three clustering methods: K-Means, Gaussian Mixture Models (GMM), and Spectral Clustering.
+
+Our findings revealed key differences between Atlantic hurricanes and Pacific typhoons. In the Atlantic, K-Means worked well, grouping storms into clear pathways—those heading into the Gulf of Mexico, those traveling up the U.S. East Coast, and those veering toward Europe. However, in the West Pacific, typhoon paths were far more varied and unpredictable, often moving toward Asia or looping in erratic patterns. As a result, Gaussian Mixture Models (GMM) performed better. Spectral Clustering proved useful in both basins, particularly for identifying storms with nonlinear paths.
+
+Despite these differences, Atlantic hurricanes and Pacific typhoons showed distinct groupings based on their trajectories, confirming that clustering techniques can help classify storm movements. More importantly, these insights suggest that storm forecasting in the West Pacific may require more advanced probabilistic models, while simpler clustering methods can still be effective for Atlantic hurricanes. As climate change continues to alter storm behavior, improving these predictive tools to understand which cyclones are more likey to be devastating will be essential for issuing earlier warnings and protecting communities.
 
 ## Key Features
 - Implementation of multiple clustering algorithms
