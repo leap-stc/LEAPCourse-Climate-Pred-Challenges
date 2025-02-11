@@ -1,22 +1,8 @@
 # Project 2: Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks
 
-This project reproduces and extends the analysis from Sane et al. (2023), "Parameterizing vertical mixing coefficients in the ocean surface boundary layer using neural networks." 
-The study explores the use of machine learning techniques to improve the parameterization of vertical mixing coefficients in the ocean surface boundary layer.
+In this project, you will extend existing work on parameterization of upper ocean mixing using a neural network (Sane et al. 2023), and write a "data story" that can be shared with a scientific audience. You will need to learn basic concepts of upper ocean mixing, understand why these critical small-scale processes must be represented in ocean and climate models, and how machine learning can be used to bridge existing gaps in this space. 
 
-## Project Assignment
-
-Term: Spring 2025
-
-Team: ##
-
-## Team Members:
-
-Member 1
-
-Member 2
-
-Member 3
-
+The starter notebook reproduces and extends a portion of the analysis from Sane et al. (2023), "Parameterizing vertical mixing coefficients in the ocean surface boundary layer using neural networks." The study explores the use of machine learning techniques to improve the parameterization of vertical mixing coefficients in the ocean surface boundary layer.
 
 ## Folder Structure
 
@@ -39,7 +25,7 @@ Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by
 
 GitHub Sharing: Recommended for collaborative coding and version control.
 
-We have prepared a GitHub Tutorial to assist with this process.
+We have prepared a [GitHub Tutorial](url) to assist with this process.
 
 If you encounter any issues, feel free to reach out.
 
