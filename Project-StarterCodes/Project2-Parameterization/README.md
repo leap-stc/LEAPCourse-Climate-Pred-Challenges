@@ -25,7 +25,7 @@ Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by
 
 GitHub Sharing: Recommended for collaborative coding and version control.
 
-We have prepared a [GitHub Tutorial](url) to assist with this process.
+We have prepared a [GitHub Tutorial](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/Tutorials/Github-Tutorial.md) to assist with this process.
 
 If you encounter any issues, feel free to reach out.
 
