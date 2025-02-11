@@ -6,6 +6,10 @@ The starter notebook reproduces and extends a portion of the analysis from Sane 
 
 ## Folder Structure
 
+To reduce the complexity of the main notebook, we have developed three additional scripts in the lib/ directory. You can also use these as they are in your project, modify these, or choose not to use them. 
+
+Please make your primary notebook the full "data story" and use a comparable file structure for helper files. 
+
 ```bash
 Project2-Parameterization/
 ├── Data/                 
