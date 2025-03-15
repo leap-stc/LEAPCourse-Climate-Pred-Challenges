@@ -7,6 +7,7 @@ from sklearn.metrics import silhouette_score
 from matplotlib.gridspec import GridSpec
 from mpl_toolkits.mplot3d import Axes3D
 
+# Not currently used in the workflow, but keeping for potential future use
 def plot_silhouette_scores(silhouette_scores):
     """
     Plot silhouette scores for different numbers of clusters.
@@ -14,23 +15,43 @@ def plot_silhouette_scores(silhouette_scores):
     Parameters:
         silhouette_scores: List of tuples (n_clusters, score)
     """
+    if not silhouette_scores:
+        print("No silhouette scores to plot")
+        return None
+        
     plt.figure(figsize=(10, 6))
+    
+    # Sort by cluster number
+    silhouette_scores = sorted(silhouette_scores, key=lambda x: x[0])
+    
+    # Plot scores
     plt.plot([s[0] for s in silhouette_scores], [s[1] for s in silhouette_scores], 
              'o-', linewidth=2, markersize=10, color='#1f77b4')
     
     # Add best score marker
     best_k, best_score = max(silhouette_scores, key=lambda x: x[1])
     plt.scatter(best_k, best_score, s=200, c='red', zorder=3, alpha=0.6)
+    
+    # Add annotation with some protection against out-of-bounds positioning
+    y_range = max([s[1] for s in silhouette_scores]) - min([s[1] for s in silhouette_scores])
+    if y_range == 0:
+        y_range = 0.1  # Prevent division by zero
+        
     plt.annotate(f'Best: k={best_k}, score={best_score:.4f}',
                 xy=(best_k, best_score),
-                xytext=(best_k+0.5, best_score-0.02),
+                xytext=(best_k+0.5, best_score-0.05*y_range),
                 arrowprops=dict(arrowstyle='->', color='red', alpha=0.6))
     
     plt.grid(True, alpha=0.3, linestyle='--')
     plt.xlabel('Number of Clusters (k)', fontsize=14)
     plt.ylabel('Silhouette Score', fontsize=14)
     plt.title('Optimal Number of Clusters Based on Silhouette Score', fontsize=16, fontweight='bold')
-    plt.xticks(range(2, max([s[0] for s in silhouette_scores])+1))
+    
+    # Set sensible x-ticks
+    min_k = min([s[0] for s in silhouette_scores])
+    max_k = max([s[0] for s in silhouette_scores])
+    plt.xticks(range(min_k, max_k+1))
+    
     plt.tight_layout()
     
     return plt.gcf()
@@ -127,7 +148,8 @@ def plot_shape_functions_by_cluster(data_load_main, cluster_assignments, n_clust
     plt.plot(z1, z, 'k--', linewidth=2, label='Universal')
     
     # Customize plot
-    plt.gca().invert_yaxis()  # Invert to match oceanographic convention
+    # CHANGED: Removed inversion of y-axis to have σ=0 at top and σ=1 at bottom
+    # plt.gca().invert_yaxis()  # Invert to match oceanographic convention
     plt.xlabel('g(σ) (Normalized Diffusivity)', fontsize=12)
     plt.ylabel('σ (Normalized Depth)', fontsize=12)
     plt.title('Mean Shape Functions by Cluster', fontsize=14, fontweight='bold')
@@ -135,66 +157,14 @@ def plot_shape_functions_by_cluster(data_load_main, cluster_assignments, n_clust
     plt.legend(fontsize=10, loc='best')
     
     # Add annotations for surface and bottom
-    plt.annotate('Surface', xy=(0.5, 0.02), xytext=(0.6, 0.05),
+    plt.annotate('Surface (σ=0)', xy=(0.5, 0.02), xytext=(0.6, 0.05),
                 arrowprops=dict(arrowstyle='->', color='black'), color='black')
-    plt.annotate('Bottom of Mixed Layer', xy=(0.5, 0.98), xytext=(0.6, 0.95),
+    plt.annotate('Bottom of Mixed Layer (σ=1)', xy=(0.5, 0.98), xytext=(0.6, 0.95),
                 arrowprops=dict(arrowstyle='->', color='black'), color='black')
     
     return plt.gcf()
 
-def plot_cluster_2d_projections(features, cluster_assignments, n_clusters, feature_names=None):
-    """
-    Create 2D scatter plots for each pair of features, colored by cluster.
-    
-    Parameters:
-        features: Input features used for clustering
-        cluster_assignments: Cluster labels
-        n_clusters: Number of clusters
-        feature_names: Names of the features
-    """
-    if feature_names is None:
-        feature_names = [f'Feature {i+1}' for i in range(features.shape[1])]
-    
-    # Set up colors for clusters
-    colors = plt.cm.tab10(np.linspace(0, 1, n_clusters))
-    
-    # Number of features
-    n_features = features.shape[1]
-    
-    # Create subplots for each feature pair
-    n_plots = n_features * (n_features - 1) // 2  # Number of unique feature pairs
-    fig, axes = plt.subplots(1, n_plots, figsize=(5*n_plots, 5))
-    
-    # If only one plot, wrap axes in a list
-    if n_plots == 1:
-        axes = [axes]
-    
-    # Plot each feature pair
-    plot_idx = 0
-    for i in range(n_features):
-        for j in range(i+1, n_features):
-            ax = axes[plot_idx]
-            
-            # Plot each cluster
-            for k in range(n_clusters):
-                mask = cluster_assignments == k
-                ax.scatter(features[mask, i], features[mask, j], 
-                          c=[colors[k]], alpha=0.6, s=20, 
-                          label=f'Cluster {k}')
-            
-            ax.set_xlabel(feature_names[i], fontsize=12)
-            ax.set_ylabel(feature_names[j], fontsize=12)
-            ax.set_title(f'{feature_names[i]} vs {feature_names[j]}', fontsize=14)
-            ax.grid(True, alpha=0.3)
-            
-            # Only add legend to first plot
-            if plot_idx == 0:
-                ax.legend(fontsize=10, title="Clusters")
-            
-            plot_idx += 1
-    
-    plt.tight_layout()
-    return fig
+# Removed plot_cluster_2d_projections function as it's not used in the current workflow
 
 def plot_cluster_size_distribution(cluster_assignments, n_clusters):
     """
@@ -358,7 +328,8 @@ def plot_sample_predictions(valid_indices, valid_clusters, baseline_preds, clust
         improvement = (baseline_err - cluster_err) / baseline_err * 100
         
         # Customize plot
-        ax.invert_yaxis()  # Invert to match oceanographic convention
+        # CHANGED: Removed inversion of y-axis to match the shape_functions plot
+        # ax.invert_yaxis()  # Invert to match oceanographic convention
         ax.set_xlabel('g(σ) (Normalized)', fontsize=12)
         if i == 0:
             ax.set_ylabel('σ (Normalized Depth)', fontsize=12)
@@ -367,9 +338,9 @@ def plot_sample_predictions(valid_indices, valid_clusters, baseline_preds, clust
         ax.grid(True, alpha=0.3, linestyle='--')
         
         # Add annotations
-        ax.text(0.05, 0.05, 'Surface', transform=ax.transAxes, fontsize=10,
+        ax.text(0.05, 0.05, 'Surface (σ=0)', transform=ax.transAxes, fontsize=10,
                bbox=dict(facecolor='white', alpha=0.8))
-        ax.text(0.05, 0.95, 'Bottom', transform=ax.transAxes, fontsize=10,
+        ax.text(0.05, 0.95, 'Bottom (σ=1)', transform=ax.transAxes, fontsize=10,
                bbox=dict(facecolor='white', alpha=0.8))
         
         # Only add legend to first plot
