@@ -145,7 +145,8 @@ def plot_shape_functions_by_cluster(data_load_main, cluster_assignments, n_clust
     z = np.linspace(0, 1, 100)
     z1 = z * (1-z)**2
     z1 = z1 / np.max(z1)
-    plt.plot(z1, z, 'k--', linewidth=2, label='Universal')
+    # Note: z1[::-1] reverses the array to match the original paper's orientation
+    plt.plot(z1[::-1], z, 'k--', linewidth=2, label='Universal')
     
     # Customize plot
     # CHANGED: Removed inversion of y-axis to have σ=0 at top and σ=1 at bottom
