@@ -828,7 +828,7 @@ def save_recon(DS_recon, dates, recon_output_dir, ens, member):
     DS_recon.to_zarr(f'{recon_fname}', mode='w')
     print("Save complete")
     
-def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, init_date, fin_date):
+def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, init_date, fin_date, owner_name=None):
     
     """
     Calculates reconstructed pco2 per member.
@@ -843,7 +843,21 @@ def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, i
     """
     init_date_sel= pd.to_datetime(init_date, format="%Y%m")
     fin_date_sel = pd.to_datetime(fin_date, format="%Y%m")
-    for ens, mem_list in selected_mems_dict.items():
+    
+    if owner_name:
+        print("Reviewing process: Running ML only for the first member of the first ESM, loading remaining reconstructed data from the notebook owner.")  
+        first_ens = list(selected_mems_dict.keys())[0]  # Get the first ensemble key
+        first_mem = selected_mems_dict[first_ens][0]   # Get the first member in that ensemble
+        run_selected_mems_dict = {first_ens: [first_mem]}  # Create a dictionary with only the first ensemble and member
+        grid_search_approach = 'nmse'
+        owener_output_dir = f'gs://leap-persistent/{owner_name}/{owner_name}/pco2_residual/{grid_search_approach}/post02_xgb' # where to save machine learning results
+        owener_recon_output_dir = f"{owener_output_dir}/reconstructions" # where owner save ML reconstructions
+        
+    else:
+        run_selected_mems_dict = selected_mems_dict
+
+
+    for ens, mem_list in run_selected_mems_dict.items():
         print(f"Current ESM: {ens}")
 
         for member in mem_list:
@@ -913,3 +927,24 @@ def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, i
             comp.to_zarr(file_out)
 
             print(f'finished with {member}')
+            
+    if owner_name:
+        print("Copying remaining members from owner’s directory...")
+        for ens, mem_list in selected_mems_dict.items():
+            print(f"On member {member}")            
+            if ens in run_selected_mems_dict: 
+                remaining_members = [m for m in mem_list if m not in run_selected_mems_dict[ens]]
+            else:
+                remaining_members = mem_list
+                      
+            for member in remaining_members:
+                owner_file_out = f"{owener_recon_output_dir}/{ens}/{member}/recon_pCO2_{ens}_{member}_mon_1x1_{init_date}_{fin_date}.zarr"
+                target_file_out = f"{pco2_recon_dir}/{ens}/{member}/recon_pCO2_{ens}_{member}_mon_1x1_{init_date}_{fin_date}.zarr"
+    
+                if fs.exists(owner_file_out):  
+                    print(f"Copying {owner_file_out} → {target_file_out}")
+                    fs.copy(owner_file_out, target_file_out)
+                else:
+                    print(f"Warning: {owner_file_out} not found. Skipping.")
+                print(f'finished with {member}')
+
