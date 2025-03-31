@@ -19,6 +19,8 @@ Project3/
 │   └── visualization.py       # Custom plotting class SpatialMap2 for creating high-quality spatial visualizations with colorbars and map features using Cartopy and Matplotlib.
 ├── notebooks/
 │   └── Project3_Starter.ipynb # Main notebook containing full analysis & data story
+|   ├── leappersistent_file_management.ipynb # check the size of files and clean up
+|   ├── Project3_Data.ipynb  # Used for preprocessing data, if more than the 20 preprocessed ESM members are required. 
 ```
 
  ## **Objective**
