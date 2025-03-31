@@ -38,6 +38,10 @@ This project aims to:
   *Quantifying Errors in Observationally Based Estimates of Ocean Carbon Sink Variability.*  
   [DOI: 10.1029/2020GB006788](https://doi.org/10.1029/2020GB006788)
 
+- **Bennington et al. (2022)**
+  *Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction: The pCO2-Residual Method*
+   [DOI: 10.1029/2021ms002960](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021MS002960)
+
 - **Heimdal et al. (2024)**  
   *Assessing improvements in global ocean pCO₂ machine learning reconstructions with Southern Ocean autonomous sampling.*  
   [DOI: 10.5194/bg-21-2159-2024](https://doi.org/10.5194/bg-21-2159-2024)
