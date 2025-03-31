@@ -19,6 +19,8 @@ Project3/
 │   └── visualization.py       # Custom plotting class SpatialMap2 for creating high-quality spatial visualizations with colorbars and map features using Cartopy and Matplotlib.
 ├── notebooks/
 │   └── Project3_Starter.ipynb # Main notebook containing full analysis & data story
+|   ├── leappersistent_file_management.ipynb # check the size of files and clean up
+|   ├── Project3_Data.ipynb  # Used for preprocessing data, if more than the 20 preprocessed ESM members are required. 
 ```
 
  ## **Objective**
@@ -35,6 +37,10 @@ This project aims to:
 - **Gloege et al. (2020)**  
   *Quantifying Errors in Observationally Based Estimates of Ocean Carbon Sink Variability.*  
   [DOI: 10.1029/2020GB006788](https://doi.org/10.1029/2020GB006788)
+
+- **Bennington et al. (2022)**
+  *Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction: The pCO2-Residual Method*
+   [DOI: 10.1029/2021ms002960](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021MS002960)
 
 - **Heimdal et al. (2024)**  
   *Assessing improvements in global ocean pCO₂ machine learning reconstructions with Southern Ocean autonomous sampling.*  
