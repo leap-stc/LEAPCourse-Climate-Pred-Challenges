@@ -1,9 +1,3 @@
-import cmocean as cm
-import cartopy.feature as cfeature
-import scipy.io
-import scipy
-from scipy.stats import stats
-
 import matplotlib.path as mpath
 import numpy as np
 import xarray as xr
@@ -14,13 +8,15 @@ from cartopy.mpl.geoaxes import GeoAxes
 from mpl_toolkits.axes_grid1 import AxesGrid
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import cartopy.feature as cfeature
+
 
 from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
 import matplotlib.ticker as mticker
 
-class SpatialMap(object):
+class SpatialMap2(object):
     """
-    SpatialMap : class to plot plot nice spatial maps with a colorbar 
+    SpatialMap2 : class to plot plot nice spatial maps with a colorbar 
                  correctly positioned in the figure
                  
     Inputs
@@ -69,9 +65,9 @@ class SpatialMap(object):
                  fig=None, 
                  rect=[1,1,1],  
                  colorbar=True, 
-                 cbar_location='right',
+                 cbar_location='bottom',
                  cbar_mode='single',
-                 cbar_orientation = 'vertical',
+                 cbar_orientation = 'horizontal',
                  cbar_size='7%', 
                  cbar_pad=0.1, 
                  axes_pad = 0.2):
@@ -94,10 +90,12 @@ class SpatialMap(object):
             projection = ccrs.SouthPolarStereo()
         
         if self.region.upper()=='WORLD':
-            projection=ccrs.Robinson(central_longitude=-149.5)
+            projection=ccrs.Robinson(central_longitude=180)
+            #projection=ccrs.InterruptedGoodeHomolosine(central_longitude=0)
+            #projection=ccrs.Miller(central_longitude=0)
             
         # Setup axesgrid
-        axes_class = (GeoAxes, dict(map_projection=projection))
+        axes_class = (GeoAxes, dict(projection=projection))
         self.grid = AxesGrid(fig, 
                              rect=rect, 
                              axes_class=axes_class,
@@ -108,16 +106,17 @@ class SpatialMap(object):
                              cbar_mode= cbar_mode if colorbar==True else None,
                              cbar_pad = cbar_pad if colorbar==True else None,
                              cbar_size = cbar_size,
-                             label_mode = '')  # note the empty label_mode 
+                             label_mode = 'all')  # note the empty label_mode 
     
-    def add_plot(self, lon=None, lat=None, data=None, 
+    def add_plot(self, lon=None, lat=None, 
+                 data=None, 
                  ax=None, 
                  land=True, 
                  coastline=True, 
                  linewidth_coast=0.25, 
                  ncolors=101, 
-                 vrange=[0, 1], 
-                 cmap=cm.cm.balance,
+                 vrange=[-25, 25], 
+                 cmap=cm.cm.balance, 
                  facecolor=[0.25,0.25,0.25],
                  *args, **kwargs):
         """
@@ -177,13 +176,12 @@ class SpatialMap(object):
         ## add Coastline
         if coastline is True:
             self.grid[ax].coastlines(facecolor=facecolor, linewidth=linewidth_coast)
-        
+
         sub = self.grid[ax].pcolormesh(self.lon, self.lat, data,
                             norm=self.norm,
                             transform=self.transform,
-                            cmap = self.cmap,
-                            vmin = self.vrange[0],
-                            vmax = self.vrange[1], *args, **kwargs)
+                                       # vmin = self.vrange[0],vmax = self.vrange[1]
+                            cmap = self.cmap, *args, **kwargs)
         return sub
     
     def add_colorbar(self, sub, ax=0, *args, **kwargs):
@@ -199,7 +197,7 @@ class SpatialMap(object):
         # Weird whitespace when you use 'extend'
         # The workaround is to make a colorbar
         # Help from : https://github.com/matplotlib/matplotlib/issues/9778
-
+        
         #col = self.grid.cbar_axes[ax].colorbar(sub, *args, **kwargs)
         col = mpl.colorbar.ColorbarBase(self.grid.cbar_axes[ax], 
                                         orientation=self.cbar_orientation,
@@ -207,6 +205,14 @@ class SpatialMap(object):
                                         norm=mpl.colors.Normalize(vmin=self.vrange[0], 
                                                                   vmax=self.vrange[1]),
                                         *args, **kwargs)
+    
+#cb2 = mpl.colorbar.ColorbarBase(ax, cmap=cmap,
+#                                norm=norm,
+#                                boundaries=[0] + bounds + [13],
+#                                extend='both',
+#                                ticks=bounds,
+#                                spacing='proportional',
+#                                orientation='horizontal')
 
         return col
     
@@ -222,7 +228,8 @@ class SpatialMap(object):
         dt.  : delta tick value
         
         """
-        col.cbar_axis.set_ticks(np.arange(tmin, tmax+dt, dt), *args, **kwargs)
+        #col.cbar_axis.set_ticks(np.arange(tmin, tmax+dt, dt), *args, **kwargs)
+        col.set_ticks(ticks=np.arange(tmin, tmax+dt, dt), *args, **kwargs)
         
     def set_title(self, title, ax, *args, **kwargs):
         """
@@ -289,3 +296,30 @@ class SpatialMap(object):
         
         """
         col.ax.set_yticklabels(labels, *args, **kwargs)
+
+
+
+from cartopy.util import add_cyclic_point
+
+def xr_add_cyclic_point(data, cyclic_coord=None):
+    '''
+    cyclic_point : a wrapper for catopy's apply_ufunc
+
+    Inputs
+    =============
+    data         : dataSet you want to add cyclic point to
+    cyclic_coord : coordinate to apply cyclic to
+
+    Returns
+    =============
+    cyclic_data : returns dataset with cyclic point added
+
+    '''
+    return xr.apply_ufunc(add_cyclic_point, data.load(),
+                          input_core_dims=[[cyclic_coord]], 
+                          output_core_dims=[['tmp_new']]).rename({'tmp_new': cyclic_coord})
+
+
+
+
+
