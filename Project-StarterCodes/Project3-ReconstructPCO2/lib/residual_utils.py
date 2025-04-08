@@ -46,7 +46,7 @@ def network_mask(topo_path,lsmask_path):
     
     ### topography
     topo_file_ext = topo_path.split('.')[-1] # getting if zarr or nc
-    ds_topo = xr.open_mfdataset(topo_path, engine=topo_file_ext)
+    ds_topo = xr.open_zarr(topo_path)
     ds_topo = ds_topo.roll(lon=180, roll_coords='lon')
     ds_topo['lon'] = np.arange(0.5, 360, 1)
 
@@ -55,7 +55,7 @@ def network_mask(topo_path,lsmask_path):
     # land=0, sea=1
     
     lsmask_file_ext = topo_path.split('.')[-1] # getting if zarr or nc
-    ds_lsmask = xr.open_mfdataset(lsmask_path, engine=lsmask_file_ext).sortby('lat').squeeze().drop('time')
+    ds_lsmask = xr.open_zarr(lsmask_path).sortby('lat').squeeze().drop('time')
     data = ds_lsmask['mask'].where(ds_lsmask['mask']==1)
     
     ### Define Latitude and Longitude
@@ -265,10 +265,15 @@ def import_member_data(ensemble_dir_head, ens, member,
 
     chl_clim_path = fs.glob(f"{ensemble_dir_head}/{ens}/{member}/chlclim*.{files_ext}")[0]
 
-    member_data = xr.open_mfdataset('gs://'+member_path, engine=file_engine).sel(time=slice(str(dates[0]),str(dates[-1])))
-    socat_mask_data = xr.open_mfdataset(socat_path, engine=file_engine).sel(time=slice(str(dates[0]),str(dates[-1])))
-    tmp = xr.open_mfdataset('gs://'+chl_clim_path, engine=file_engine).chl_clim
-    xco2 = xr.open_mfdataset(xco2_path, engine=file_engine).sel(time=slice(str(dates[0]),str(dates[-1])))
+    # member_data = xr.open_mfdataset('gs://'+member_path, engine=file_engine).sel(time=slice(str(dates[0]),str(dates[-1])))
+    # socat_mask_data = xr.open_mfdataset(socat_path, engine=file_engine).sel(time=slice(str(dates[0]),str(dates[-1])))
+    # tmp = xr.open_mfdataset('gs://'+chl_clim_path, engine=file_engine).chl_clim
+    # xco2 = xr.open_mfdataset(xco2_path, engine=file_engine).sel(time=slice(str(dates[0]),str(dates[-1])))
+     
+    member_data = xr.open_zarr('gs://'+member_path).sel(time=slice(str(dates[0]),str(dates[-1])))
+    socat_mask_data = xr.open_zarr(socat_path).sel(time=slice(str(dates[0]),str(dates[-1])))
+    tmp = xr.open_zarr('gs://'+chl_clim_path).chl_clim
+    xco2 = xr.open_zarr(xco2_path).sel(time=slice(str(dates[0]),str(dates[-1])))
      
     inputs = {}
     
@@ -879,7 +884,7 @@ def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, i
             print('save path:',file_out)
 
             ### Loading pCO2-T and reconstructed pCO2-residual:
-            pco2T_series = xr.open_mfdataset(pco2T_path,engine='zarr').pco2_T.transpose("time","ylat","xlon").sel(time=slice(init_date_sel, fin_date_sel))
+            pco2T_series = xr.open_zarr(pco2T_path).pco2_T.transpose("time","ylat","xlon").sel(time=slice(init_date_sel, fin_date_sel))
             pco2_ml_output = xr.open_zarr(pCO2R_path) #, consolidated=False, storage_options={"token": "cloud"}, group=None)
             
             ### unseen reconstructed pCO2-Residual from XGB
