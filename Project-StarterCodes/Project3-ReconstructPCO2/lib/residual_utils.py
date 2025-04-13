@@ -830,7 +830,9 @@ def save_recon(DS_recon, dates, recon_output_dir, ens, member):
     recon_fname = f"{recon_dir}/recon_pCO2residual_{ens}_{member}_mon_1x1_{init_date}_{fin_date}.zarr"
 
     print(recon_fname)
-    DS_recon.to_zarr(f'{recon_fname}', mode='w')
+    # DS_recon.to_zarr(f'{recon_fname}', mode='w')
+    DS_recon.to_zarr(f'{recon_fname}', mode='w', zarr_format=2)
+
     print("Save complete")
     
 def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, init_date, fin_date, owner_name=None):
@@ -929,7 +931,8 @@ def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, i
 
             ### for saving:
             comp = comp.chunk({'time':100,'ylat':45,'xlon':90})
-            comp.to_zarr(file_out)
+            comp.to_zarr(file_out, mode='w', zarr_format=2)
+
 
             print(f'finished with {member}')
             
