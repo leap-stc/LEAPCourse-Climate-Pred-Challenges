@@ -3,6 +3,7 @@ from pathlib import Path
 import numpy as np
 import xarray as xr
 import pandas as pd
+import pickle
 from skimage.filters import sobel
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, max_error, mean_squared_error, mean_absolute_error, median_absolute_error
@@ -608,30 +609,40 @@ def apply_splits(X, y, train_val_idx, train_idx, val_idx, test_idx):
 # Saving functions
 #===============================================
 
-def save_clean_data(df, data_output_dir, ens, member, dates):
-    
+from urllib.parse import urljoin
+import fsspec
+
+def save_clean_data(df, data_output_dir, ens, member, dates, save_format='parquet'):
     """
     Saves clean ML dataframe to be fed into ML algorithm
-    
+
     Parameters
     ----------
-    df : pd.Dataframe
+    df : pd.DataFrame
         Dataframe for ML algo
-    
-    data_output_dir: str
-        Path to directory to save dataframe for ML
-        
+
+    data_output_dir : str
+        GCS path (e.g., "gs://leap-persistent/Mukkke/...")
     """
-    
     print("Starting data saving process")
 
-    init_date = str(dates[0].year) + format(dates[0].month,'02d')
-    fin_date = str(dates[-1].year) + format(dates[-1].month,'02d')
-    
-    output_dir = f"{data_output_dir}/{ens}/{member}"
-    fname = f"{output_dir}/MLinput_{ens}_{member.split('_')[-1]}_mon_1x1_{init_date}_{fin_date}.pkl"
-    df.to_pickle(fname)
-    print(f"{member} save complete")
+    init_date = f"{dates[0].year}{dates[0].month:02d}"
+    fin_date = f"{dates[-1].year}{dates[-1].month:02d}"
+
+    base_fname = f"MLinput_{ens}_{member.split('_')[-1]}_mon_1x1_{init_date}_{fin_date}"
+    fname = base_fname + (".parquet" if save_format == 'parquet' else ".pkl")
+    file_path = f"{data_output_dir}/{ens}/{member}/{fname}"
+
+    if save_format == 'parquet':
+        with fsspec.open(file_path, 'wb') as f:
+            df.to_parquet(f)
+    elif save_format == 'pickle':
+        with fsspec.open(file_path, 'wb') as f:
+            pickle.dump(df, f, protocol=pickle.HIGHEST_PROTOCOL)
+    else:
+        raise ValueError(f"Unsupported format: {save_format}")
+
+    print(f"{member} save complete ({save_format})")
 
 # def save_model(model, dates, model_output_dir, ens, member):
     
