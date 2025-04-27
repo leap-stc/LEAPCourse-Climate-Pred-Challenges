@@ -803,7 +803,50 @@ def save_model_locally(model, dates, local_output_dir, ens, member):
 
     print("Local model saving process complete.")
 
+def save_local_ocean_model(model, dates, local_output_dir, ens, member, ocean):
+    """
+    Saves the trained XGBoost model to a local directory.
 
+    Parameters
+    ----------
+    model : xgboost.sklearn.XGBRegressor
+        Trained XGBoost model.
+        
+    dates : pandas.DatetimeIndex
+        List of dataset dates.
+        
+    local_output_dir : str
+        Local directory to store the model (e.g., "output/model_saved").
+        
+    ens : str
+        Earth System Model name.
+        
+    member : str
+        Member index (e.g., 'member_r1i1p1f1').
+    """
+
+    print("Starting local model saving process...")
+
+    # Ensure the output directory exists
+    Path(local_output_dir).mkdir(parents=True, exist_ok=True)
+
+    # Format time information
+    init_date = f"{dates[0].year}{dates[0].month:02d}"
+    fin_date = f"{dates[-1].year}{dates[-1].month:02d}"
+
+    # Define the local filename
+    model_filename = f"model_pCO2_2D_{ens}_{member.split('_')[-1]}_mon_1x1_{init_date}_{fin_date}_{ocean}.json"
+    model_path = os.path.join(local_output_dir, model_filename)
+
+    # Save the model
+    try:
+        model.save_model(model_path)
+        print(f"Model successfully saved locally at: {model_path}")
+    except Exception as e:
+        print(f"Error saving model: {e}")
+        return
+
+    print("Local model saving process complete.")
 
 
 
@@ -966,4 +1009,3 @@ def calc_recon_pco2(regridded_members_dir, pco2_recon_dir, selected_mems_dict, i
                 else:
                     print(f"Warning: {owner_file_out} not found. Skipping.")
                 print(f'finished with {member}')
-
