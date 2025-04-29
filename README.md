@@ -7,7 +7,7 @@ A project-based learning course where teams of climate science and data science 
 ##### Shortcuts: [Project 1](#project-cycle-1-jupyter-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-physics-informed-machine-learning) | [Project 3](#project-cycle-3-predictive-modeling)
 ----
 ### Project cycle 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
-
+#
 Following the work of 
 * Nakamura et al. (2009). Classifying North Atlantic Tropical Cyclone Tracks by Mass Moments. Journal of Climate, 22(20), 5481–5494. [doi:10.1175/2009jcli2828.1](https://doi.org/10.1175/2009jcli2828.1)
 

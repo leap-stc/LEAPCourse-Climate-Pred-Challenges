@@ -1,41 +1,39 @@
-# Project 2: Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks
+# Project 2 – Condtional Modeling Approach for Parametrizing Ocean Mixing
 
-In this project, you will extend existing work on parameterization of upper ocean mixing using a neural network (Sane et al. 2023), and write a "data story" that can be shared with a scientific audience. You will need to learn basic concepts of upper ocean mixing, understand why these critical small-scale processes must be represented in ocean and climate models, and how machine learning can be used to bridge existing gaps in this space. 
+This project extends the work of Sane et al. (2023), "Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks", by exploring whether specialized models based on distinct ocean regimes can outperform a universal neural network in predicting vertical mixing shape functions ( g(sigma) ).
 
-The starter notebook reproduces and extends a portion of the analysis from Sane et al. (2023), "Parameterizing vertical mixing coefficients in the ocean surface boundary layer using neural networks." The study explores the use of machine learning techniques to improve the parameterization of vertical mixing coefficients in the ocean surface boundary layer.
+---
 
-## Folder Structure
+## Motivation
 
-To reduce the complexity of the main notebook, we have developed three additional scripts in the lib/ directory. You can also use these as they are in your project, modify these, or choose not to use them. 
+Vertical mixing in the ocean surface boundary layer is driven by complex, small-scale processes. Traditional climate models use fixed parameterizations which cannot fully capture variability across different regions and seasons.
 
-Please make your primary notebook the full "data story" and use a comparable file structure for helper files. 
+We investigate three complementary approaches:
+- **Clustering based on physically interpretable features**
+- **Clustering by input features** (e.g., Coriolis, buoyancy flux, wind stress) to group physical regimes
+- **Clustering by shape function structure** (i.e., clustering on the outputs) to learn distinct vertical mixing behaviors
 
-```bash
-Project2-Parameterization/
-├── Data/                 
-│   ├── README.md         # Detailed information on data sources
-├── lib/                  # Utility scripts and helper functions
-│   ├── func_file.py
-│   ├── visual_figure3.py
-│   ├── visual_figure4.py
-├── notebooks/            # Jupyter notebooks for experiments
-│   ├── Project2_Starter.ipynb
-├── README.md             # Project documentation
-```
+---
 
-## **Running this Notebook**:
 
-This notebook is designed for use on LEAP-Pangeo's GPU cluster (Pytorch option).
+## Team & Contributions
 
-## **Contribution statement**: ([more information and examples](doc/a_note_on_contributions.md))  
+**Group 5**  
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz).
+- **Sarah Pariser**  
+  Explored physical drivers (latitude, heat flux, wind stress) and their effect on shape structure; applied subsetting and filtering strategies; contributed to early data preprocessing.
 
-GitHub Sharing: Recommended for collaborative coding and version control.
+- **Dhruv Chakraborty**  
+  Led the design of input- and shape-based clustering approaches using KMeans and PCA; trained neural networks for each cluster; built visualization functions.
 
-We have prepared a [GitHub Tutorial](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/blob/main/Tutorials/Github-Tutorial.md) to assist with this process.
+- **Kihyun Jye**  
+  Trained the baseline model and implemented a node-wise modeling strategy with early stopping; helped structure the data story to match rubric.
 
-If you encounter any issues, feel free to reach out.
+- **Sarika de Bruyn** Applied hierarchical clustering and data resampling techniques to balance training; experimented with Gaussian-shaped distributions and Mixture of Experts frameworks; helped structure final notebook, including adding relevant details for figures etc.
+
+---
 
 ## References
-Sane et al. (2023), "Parameterizing vertical mixing coefficients in the ocean surface boundary layer using neural networks." Journal of Advances in Modeling Earth Systems, 15(10), e2023MS003890.
+
+Sane et al. (2023), *Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks*, Journal of Advances in Modeling Earth Systems, 15(10), e2023MS003890.  
+DOI: https://doi./10.1029/2023MS003890
