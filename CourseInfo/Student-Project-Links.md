@@ -2,6 +2,9 @@
 
 This document lists the GitHub repositories submitted by each group for the three course projects.
 
+
+>  **Note:** Each group is free to decide whether to maintain or update their project repositories beyond this course. You are also welcome to choose whether your repository remains **public** or is made **private**.
+
 ---
 
 ## Project 1: Hurricanes, Climate, Clustering (Exploratory Data Analysis and Visualization)
@@ -36,4 +39,7 @@ This document lists the GitHub repositories submitted by each group for the thre
 * **Group 4**: [LEAPCourse-Climate-Pred-Challenges/Project3-ReconstructPCO2](https://github.com/dhruvc99/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project3-ReconstructPCO2)
 * **Group 5**: [LEAPCourse-Climate-Pred-Challenges/Project3-ReconstructPCO2](https://github.com/dhruvc99/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project3-ReconstructPCO2)
 * **Group 6**: [acastillo5248/Project\_3\_fork](https://github.com/acastillo5248/Project_3_fork/tree/main/Project-StarterCodes/Project3-ReconstructPCO2)
+
+
+> Thank you all for your hard work this semester! Your projects were insightful and a valuable contribution to our shared learning. 
 
